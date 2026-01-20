@@ -1,0 +1,2836 @@
+<!DOCTYPE html><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous"><script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script><script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false},
+        {left: '\\(', right: '\\)', display: false},
+        {left: '\\[', right: '\\]', display: true}
+      ],
+      throwOnError : false
+    });
+  });
+</script><img src="/_astro/banner.BVG6MPKu_25rc68.webp" alt="Banner Image" loading="lazy" decoding="async" fetchpriority="auto" width="1128" height="191" class="banner-image"><h1 class="main-title">Systems Engineering</h1> <p class="description">Engineering the Ecosystem, Not Just the Machine​</p> <div id="markdown-content"> <html> <head><!-- ... --><meta charset="utf-8"><style>:root{--bg-color: #ecf3c9;--text-color: #032424;--title-color: #0081c2;--heading-start: #056410;--heading-end: #0b7304;--link-color: #00bdd6}body{text-align:left;width:80%;margin:0 auto;font-size:1.4rem;line-height:1.6;background-color:var(--bg-color);color:var(--text-color)}.main-title{color:var(--title-color);font-size:3rem;margin-bottom:.5rem;text-align:center}.description{text-align:center;font-size:1.8rem;margin-bottom:2rem;color:var(--title-color)}.banner-image{width:100%;max-height:400px;object-fit:cover;margin-bottom:1.5rem;border-radius:8px;mask-image:linear-gradient(to bottom,var(--bg-color) 80%,transparent 100%),linear-gradient(to right,transparent,var(--bg-color) 5%,var(--bg-color) 95%,transparent);-webkit-mask-image:linear-gradient(to bottom,var(--bg-color) 80%,transparent 100%),linear-gradient(to right,transparent,var(--bg-color) 5%,var(--bg-color) 95%,transparent);mask-composite:intersect;-webkit-mask-composite:source-in}h1{color:var(--heading-start)}h2{color:color-mix(in srgb,var(--heading-start),var(--heading-end) 33%)}h3{color:color-mix(in srgb,var(--heading-start),var(--heading-end) 66%)}h4,h5,h6{color:var(--heading-end)}a{color:var(--link-color)}#markdown-content img{max-width:100%;height:auto}#markdown-content summary>*{display:inline;margin:0}#markdown-content,#markdown-content summary{color:var(--text-color)}#markdown-content table{width:100%;border-collapse:collapse;margin:1rem 0;border:1px solid #ccc}#markdown-content th,#markdown-content td{border:1px solid #ccc;padding:.25rem;text-align:left;font-size:inherit;color:var(--text-color)}
+</style></head> <!-- ... --> <ul>
+<li>
+<h1 id="systems-engineering-introduction">Systems Engineering Introduction</h1>
+<ul>
+<li>
+<h2 id="what-is-systems-engineering">What Is Systems Engineering?</h2>
+<ul>
+<li><strong>Systems Engineering (SE)</strong>: Integrative approach -> team collaboration -> manage complexity &#x26; system delivery.</li>
+<li><strong>Systems thinking</strong>: Foundation of SE -> focus on wholes &#x26; internal part interrelations.</li>
+<li><strong>SE goal</strong>: Ensure parts achieve whole-system objectives.</li>
+<li><strong>SE practitioners</strong>: Operate within project teams -> apply holistic, balanced, life cycle approach</li>
+<li><strong>SE responsibility</strong>: Realize <strong>systems fit for purpose</strong>
+<ul>
+<li>Accomplish intended purposes.</li>
+<li>Resist real-world operation effects.</li>
+<li>Minimize unintended actions, side effects, &#x26; consequences.</li>
+</ul>
+</li>
+<li>
+<h3 id="definition-of-se">Definition of SE</h3>
+<ul>
+<li><strong>SE Definition</strong>: <strong>Systems Engineering</strong> is a transdisciplinary and integrative approach to enable the successful realization, use, and retirement of engineered systems, using systems principles and concepts, and scientific, technological, and management methods.</li>
+<li><strong>SE Focus</strong>:
+<ul>
+<li>Balance stakeholder goals, purpose, &#x26; success criteria.</li>
+<li>Define needs, operational concepts, &#x26; functionality early in development cycle.</li>
+<li>Establish life cycle model, process approach, &#x26; governance.</li>
+<li>Account for complexity, uncertainty, change, &#x26; variety.</li>
+<li>Generate &#x26; evaluate alternative concepts &#x26; architectures.</li>
+<li>Baseline &#x26; model requirements &#x26; architectures per stage.</li>
+<li>Perform design synthesis, verification, &#x26; validation.</li>
+<li>Evaluate problem &#x26; solution domains taking into account enabling systems &#x26; services.</li>
+<li>Map part relationships -> overall behavior &#x26; performance.</li>
+</ul>
+</li>
+<li>SE Role: Provide facilitation, guidance, &#x26; leadership -> integrate disciplines &#x26; specialty groups.</li>
+<li>Development process: Concept -> Development -> Production -> Utilization -> Support -> Retirement.</li>
+<li>Business &#x26; technical needs: Address acquirer requirements -> provide quality solution.</li>
+<li><strong>Risk management goals</strong>:
+<ul>
+<li>Mitigate failure to deliver acquirer’s wants &#x26; needs.</li>
+<li>Prevent late delivery.</li>
+<li>Control excess cost.</li>
+<li>Avoid negative unintended consequences.</li>
+</ul>
+</li>
+<li>Utility of SE is measured by degree of risk reduction using SE.</li>
+</ul>
+</li>
+<li>
+<h3 id="definitions-of-system">Definitions of System</h3>
+<ul>
+<li><strong>System Origin</strong>: -> “whole” consisting of interacting “parts”.</li>
+<li><strong>System Definition</strong>: A <strong>system</strong> is an arrangement of parts or elements that together exhibit behavior or meaning that the individual constituents do not.</li>
+<li><strong>System interpretations</strong>: Viewed as product or the services it provides.
+<ul>
+<li>Context clarified by associative nouns (e.g., <strong>medical system</strong>) or synonyms (e.g., <strong>pacemaker</strong>).</li>
+</ul>
+</li>
+<li><strong>Complete system</strong>:
+<ul>
+<li>Equipment &#x26; facilities.</li>
+<li>Material.</li>
+<li>Computer programs &#x26; firmware.</li>
+<li>Technical documentation.</li>
+<li>Services.</li>
+<li>Personnel.</li>
+</ul>
+</li>
+<li><strong>System Types</strong>:
+<ul>
+<li><strong>Physical systems</strong>: Matter &#x26; energy -> exhibit behavior.</li>
+<li><strong>Conceptual systems</strong>: Abstract information -> exhibit “meaning”. Eg: Flight Control Software</li>
+<li>Combination of both. Eg: The “Cyber-Physical” System of An Autonomous Drone.</li>
+</ul>
+</li>
+<li><strong>System properties emerges from</strong>:
+<ul>
+<li>parts &#x26; properties.</li>
+<li>relationships &#x26; interactions b/w &#x26; among (parts, system, external systems, environment).</li>
+</ul>
+</li>
+<li><strong>Engineered system</strong>: An <strong>engineered system</strong> is a system designed or adapted to interact with an anticipated operational environment to achieve one or more intended purposes while complying with applicable constraints.</li>
+<li><strong>Engineered system elements</strong>:
+<ul>
+<li>People.</li>
+<li>Products.</li>
+<li>Services.</li>
+<li>Information.</li>
+<li>Processes.</li>
+<li>Natural elements.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h2 id="why-is-systems-engineering-important">Why Is Systems Engineering Important?</h2>
+<ul>
+<li><strong>SE Purpose</strong>: conceive, develop, produce, utilize, support, &#x26; retire right product/service within budget &#x26; schedule constraints.</li>
+<li><strong>Product Delivery Requirements</strong>:
+<ul>
+<li>Common understanding of current system state.</li>
+<li>Common vision of future states.
+<ul>
+<li><strong>Common Vision Achievement</strong> through application of proven methods based on standard approaches across people, processes, &#x26; tools, continuous throughout the system’s life cycle</li>
+</ul>
+</li>
+<li>Methodology transforming stakeholder needs, expectations, &#x26; constraints -> solution.</li>
+</ul>
+</li>
+<li><strong>SE Importance due to Complexity</strong>:
+id:: 69655f27-857b-4808-a893-7ef3262c70ec
+<ul>
+<li>Integration of commercially available products.</li>
+<li>Integration of independently managed/operated systems -> emergent capabilities.</li>
+</ul>
+</li>
+<li><strong>Market Acceleration</strong>:
+<ul>
+<li>Reliance on off-the-shelf &#x26; systems of systems (SoS) -> reduced concept-to-market time.</li>
+<li>$1880$ to $2000$ : average $25%$ market penetration time reduced > factor of $4$ .
+<ul>
+<li><img  src="/_astro/c01f001a_1768252085725_0.BFLj3ERD_ZzEy1w.webp" alt="c01f001a.png" loading="lazy" decoding="async" fetchpriority="auto" width="1947" height="1050">{:height 373, :width 661}</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Methodological Evolution</strong>:
+<ul>
+<li><strong>Agile methods &#x26; SysML</strong>: manage complexity &#x26; increase common system vision implementation.</li>
+<li><strong>Model Based SE (MBSE)</strong>: improves productivity &#x26; quality in early conceptual design &#x26; requirements analysis.</li>
+<li><strong>Digital Engineering (DE)</strong>: creates transparent data &#x26; optimized cooperation across engineering disciplines.</li>
+<li><strong>AI &#x26; ML Integration</strong>: increases complexity of verifiability, safety, &#x26; trust in self-learning systems.</li>
+</ul>
+</li>
+<li><strong>Honour Study (2013) ROI</strong> return on investment at University of South Australia:
+<ul>
+<li>Quantifies SE activity impact on project cost &#x26; schedule.</li>
+<li><strong>Optimum SE Effort</strong>: $10%$ to $14%$ of total project cost.</li>
+<li><strong>Diminishing Returns</strong>: SE effort > $14%$ -> unwarranted processes -> reduced ROI.</li>
+<li><strong>Correlation Factor</strong>: SE effort correlates w/ project success at ~ $80%$ .</li>
+<li><img  src="/_astro/c01f001_1768252604161_0.D0unsMu9_Z1RIkAl.webp" alt="c01f001.png" loading="lazy" decoding="async" fetchpriority="auto" width="1950" height="511">{:height 235, :width 714}</li>
+</ul>
+</li>
+<li><strong>SE Return on adding additional SE activities to a project</strong>:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Current SE effort (% of program cost)</th><th>Average cost overrun (%)</th><th>ROI for additional SE effort (cost reduction $ per $ SE added)</th></tr></thead><tbody><tr><td>0</td><td>53</td><td>7.0</td></tr><tr><td>5</td><td>24</td><td>4.6</td></tr><tr><td>7.2 (median of all programs)</td><td>15</td><td>3.5</td></tr><tr><td>10</td><td>7</td><td>2.1</td></tr><tr><td>15</td><td>3</td><td>–0.3</td></tr><tr><td>20</td><td>10</td><td>–2.8</td></tr></tbody></table>
+</li>
+<li><strong>Elm &#x26; Goldenson Study (2012)</strong> by NDIA and IEEE:
+<ul>
+<li>Surveyed $148$ projects regarding SE maturity vs. performance.</li>
+<li><strong>Lower SE Capability</strong>: $15%$ high performance / $52%$ low performance.</li>
+<li><strong>Moderate SE Capability</strong>: $24%$ high performance / $29%$ low performance.</li>
+<li><strong>Higher SE Capability</strong>: $57%$ high performance / $20%$ low performance.</li>
+<li>Well-applied SE increases the probability of successfully developing an engineered system</li>
+<li><img  src="/_astro/c01f002_1768253105337_0.Rm3cN26g_Z1KiYQ8.webp" alt="c01f002.png" loading="lazy" decoding="async" fetchpriority="auto" width="991" height="700">{:height 276, :width 384}</li>
+</ul>
+</li>
+<li><strong>DAU Life Cycle Cost LCC Analysis (1993)</strong> on DoD:
+<ul>
+<li>Life Cycle Cost (LCC) is the total cost of owning, operating, and maintaining an asset or project over its entire lifespan, from initial acquisition (cradle) to final disposal (grave)</li>
+<li><strong>LCC Commitment</strong>: $~80%$ of total LCC committed by $~20%$ of actual cost accrual.</li>
+<li><strong>Reducing Technical Debt</strong>: early issue identification via SE reduces fix costs.</li>
+<li><img  src="/_astro/c01f003_1768253330797_0.DeDHlxUx_ZdjooG.webp" alt="c01f003.png" loading="lazy" decoding="async" fetchpriority="auto" width="1950" height="1049">{:height 306, :width 476}</li>
+</ul>
+</li>
+<li><strong>INCOSE Value Propositions (2021)</strong>:
+<ul>
+<li><strong>Commercial/Market-Driven Industry</strong>: enhances development of innovative products/services &#x26; effective market competitiveness in mature &#x26; immature markets.</li>
+<li><strong>Government/Aerospace/Defense/Infrastructure</strong>:
+<ul>
+<li>Tailorable systematic approach (accommodating from Agile -> Sequential) from concept to retirement.</li>
+<li>Facilitates open architectures -> lower acquisition, maintenance, &#x26; upgrade costs.</li>
+<li>Accurate requirements and allocation -> fewer design changes.</li>
+</ul>
+</li>
+<li><strong>Nonprofit/Research</strong>:
+<ul>
+<li>Enhances capability for development of innovative client services</li>
+<li>Enhances discovery &#x26; invention effectiveness.</li>
+<li>Supports technology development via internal SE practice.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h2 id="systems-concepts">Systems Concepts</h2>
+<ul>
+<li>Introduction
+<ul>
+<li><strong>System Concepts</strong>: include <strong>System of Interest (SoI)</strong>, <strong>System Environment</strong>, &#x26; <strong>External Systems</strong>.</li>
+<li><strong>System Boundaries</strong>: define separation between system &#x26; surrounding elements.
+<ul>
+<li>Differentiate <strong>SoI</strong>, <strong>Enabling Systems</strong>, <strong>Interoperating Systems</strong>, &#x26; <strong>Interfacing Systems</strong>.</li>
+<li>Support SE practitioner in accounting for all elements within whole system context.</li>
+</ul>
+</li>
+<li><strong>Modes &#x26; States</strong>: represent fundamental system behavior characteristics.</li>
+<li><strong>Structural Organizations</strong>:
+<ul>
+<li><strong>Hierarchical</strong>: organized via structural levels.</li>
+<li><strong>Complex</strong>: hierarchy not always present.</li>
+</ul>
+</li>
+<li><strong>System Concepts Framework</strong>: encompasses all system structures -> supports SE practitioner.</li>
+</ul>
+</li>
+<li>
+<h3 id="system-boundary-and-the-system-of-interest-soi">System Boundary and the System of Interest (SoI)</h3>
+<ul>
+<li>
+<h4 id="general-system-concepts">General System Concepts</h4>
+<ul>
+<li><strong>System Environment/Context</strong>: external elements that do not belong but interact w/ system.
+<ul>
+<li>Includes:
+<ul>
+<li>Users &#x26; operators.</li>
+<li>Operating environment.</li>
+<li>External systems interfacing/supporting system throughout life cycle.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>System Boundary</strong>: line of demarcation between <strong>System of Interest (SoI - system under consideration)</strong> &#x26; greater context.
+<ul>
+<li>Defines system membership.</li>
+<li>Distinct from subset of elements interacting w/ environment. System environment is physical, system boundary is metaphysical</li>
+</ul>
+</li>
+<li><strong>System Functionality</strong>: derived from system-environment interactions</li>
+<li><strong>System Architecture</strong> (ISO/IEC/IEEE 42020:2019): Fundamental concepts or properties of an entity in its environment and governing principles for the realization and evolution of this entity and its related life cycle processes.
+<ul>
+<li>When a system is considered as an integrated combination of interacting elements, the functionality of the system derives not just from the interactions of individual elements with the environmental elements but also from how these interactions are influenced by the organization (interrelations) of the system elements</li>
+<li>Speaks to both the internal and external views of the system</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="scientific-terminology-related-to-system-concepts">Scientific Terminology Related to System Concepts</h4>
+<ul>
+<li>Engineering: practice creating/sustaining systems, services, devices, machines, structures, processes, &#x26; products -> improved quality of life effectively and efficiently.
+<ul>
+<li>Scientific repeatability ensures practical engineering solutions w/ commercial value.</li>
+</ul>
+</li>
+<li><strong>Attribute</strong>: observable characteristic or property of system/element. Eg: Speed of an aircraft
+<ul>
+<li><strong>Variable</strong>: symbol/name identifying an attribute.
+<ul>
+<li>Possesses a domain - could be but is not necessarily measurable.</li>
+</ul>
+</li>
+<li><strong>Measurement</strong>: Outcome of a process in which <strong>SoI</strong> interaction w/ observation system under specified conditions -> assigns <strong>Value</strong> to variable.</li>
+</ul>
+</li>
+<li><strong>System State</strong>: constant/steady attribute values over meaningful period.</li>
+<li><strong>System Elements</strong>: possess attributes &#x26; processes (e.g., operations of software objects).</li>
+<li><strong>Processes</strong>: binary logical values (idle or executing).</li>
+<li><strong>Complete System State Description</strong>: requires assigned values for both attributes &#x26; processes.</li>
+<li><strong>Dynamic Behavior</strong>: time evolution of system state.</li>
+<li><strong>Emergent Behavior</strong>: system behavior not understood exclusively via individual element behaviors.</li>
+<li><strong>Black Box (Opaque Box)</strong>: external view of system attributes.</li>
+<li><strong>White Box (Transparent Box)</strong>: internal view of attributes &#x26; element structure.</li>
+<li><strong>System Representation</strong>: integrates external attributes, internal attributes, structure, &#x26; scientific interrelationship between these.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="emergence">Emergence</h3>
+<ul>
+<li><strong>Emergence</strong>: phenomenon where properties of whole entities are meaningful only when attributed to whole, not elements.
+<ul>
+<li><strong>Checkland (1999)</strong>: human activity systems possess properties deriving from element activities &#x26; structure but not reducible to them.</li>
+<li><strong>Sillitto &#x26; Dori (2017)</strong>: emergence is a fundamental property of all systems.</li>
+<li><strong>Rousseau et al. (2018)</strong>: properties system possesses which elements alone lack, a systems science concept.</li>
+</ul>
+</li>
+<li><strong>Emergent Properties</strong>: result from element interactions or system-environment interactions.
+<ul>
+<li>Create desirable or undesirable phenomena:
+<ul>
+<li>Inhibition.</li>
+<li>Interference.</li>
+<li>Resonance.</li>
+<li>Reinforcement.</li>
+</ul>
+</li>
+<li>Many engineering disciplines include emergence as a property.
+<ul>
+<li><strong>Systems Safety</strong> (Leveson, 1995)</li>
+<li><strong>Systems Resilience</strong> (Rasoulkahni, 2018)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Architecture Definition</strong>: analyzes element interactions -> reinforce desirable &#x26; prevent undesirable emergence.
+<ul>
+<li><strong>Rousseau et al. (2019)</strong>: Systemic virtue of emergent properties are used during systems architecture and design definition to highlight necessary derived functions &#x26; physical/environmental constraints.</li>
+<li>Add derived requirements to system requirements baseline when impacting <strong>SoI</strong>.</li>
+</ul>
+</li>
+<li><strong>Complexity Dominance (Calvo-Amodio &#x26; Rousseau, 2019)</strong>: differentiates kinds &#x26; degrees of complexity.
+<ul>
+<li>SE practitioner uses variety engineering -> manage complexity.</li>
+</ul>
+</li>
+<li><strong>Rules of Emergence</strong>:
+<ul>
+<li>Individual elements cannot exhibit higher-level system emergence.</li>
+<li>Interaction requires $\ge 2$ elements.</li>
+<li>Emergence occurs at level above individual elements.</li>
+<li><img  src="/_astro/c01f004_1768260563078_0.rXd4BzY1_1d7Wjz.webp" alt="c01f004.png" loading="lazy" decoding="async" fetchpriority="auto" width="1860" height="840">{:height 213, :width 374}</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="interfacing-systems-interoperating-systems-and-enabling-systems">Interfacing Systems, Interoperating Systems, and Enabling Systems</h3>
+<ul>
+<li><strong>External Systems</strong>: systems beyond or outside <strong>SoI</strong> boundary.</li>
+<li><strong>Interfacing Systems</strong>: external systems sharing interface w/ <strong>SoI</strong>.
+<ul>
+<li>Interface types:
+<ul>
+<li>Physical.</li>
+<li>Material.</li>
+<li>Energy.</li>
+<li>Data/information.</li>
+</ul>
+</li>
+<li>Typically humans interface w/ <strong>SoI</strong> throughout life cycle.</li>
+</ul>
+</li>
+<li><strong>Interoperating Systems</strong>: interfacing systems that interface with the SoI in its operational environment performing common function.
+<ul>
+<li>Support <strong>SoI</strong> primary purpose.</li>
+<li><strong>SoI</strong> + interoperating systems -> <strong>System of Systems (SoS)</strong>.</li>
+</ul>
+</li>
+<li><strong>Enabling Systems</strong>: external systems facilitating <strong>SoI</strong> life cycle activities.
+<ul>
+<li>Not direct elements of operational environment.</li>
+<li>Provide services during $\ge 1$ life cycle stages.</li>
+<li>Some enabling systems share an interface with the SoI and some do not</li>
+<li>Examples:
+<ul>
+<li>Collaboration development systems.</li>
+<li>Production systems.</li>
+<li>Logistics support systems.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Interacting System Example</strong>:
+<ul>
+<li>All inter-operating systems are interfacing systems, but not the inverse</li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>SOI and External Systems</th><th>Interfacing System</th><th>Interoperating System</th><th>Enabling System</th></tr></thead><tbody><tr><td><strong>Aircraft</strong></td><td></td><td></td><td></td></tr><tr><td>Flight simulator</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Fuel Truck</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Remote Maintenance</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Communication system</td><td>Yes</td><td>Yes</td><td>No</td></tr><tr><td>Runway</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td><strong>Automobile</strong></td><td></td><td></td><td></td></tr><tr><td>SE Tool</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Car carrier</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Diagnosis system</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Parking assistant</td><td>Yes</td><td>Yes</td><td>No</td></tr><tr><td>Windshield snow cover</td><td>Yes</td><td>No</td><td>No</td></tr></tbody></table>
+</li>
+</ul>
+</li>
+<li><strong>Concurrent Consideration</strong>: analyze interfacing, interoperating, &#x26; enabling systems alongside SoI during its life cycle stages.
+<ul>
+<li>Prevents unidentified requirements &#x26; significant downstream costs.</li>
+</ul>
+</li>
+<li><strong>System Pitfalls</strong>:
+<ul>
+<li>Assuming new enabling systems online in time for <strong>SoI</strong> development.</li>
+<li>Assuming existing enabling systems remain available throughout <strong>SoI</strong> life cycle.</li>
+</ul>
+</li>
+<li><strong>Lifecycle Risks</strong>: delay/loss of enabling systems -> development &#x26; deployment issues for SoI.</li>
+<li><strong>Horizontal &#x26; vertical integration considerations</strong> -> system context represented in interfacing, interoperating, &#x26; enabling systems</li>
+</ul>
+</li>
+<li>
+<h3 id="system-innovation-ecosystem">System Innovation Ecosystem</h3>
+<ul>
+<li><strong>System Innovation Ecosystem</strong>: form of group learning across individuals, teams, enterprises, supply chains, markets, &#x26; societies.</li>
+<li><strong>System Innovation Ecosystem Pattern</strong>: neutral descriptive model used to represent, plan, analyze, &#x26; improve performance (Schindel &#x26; Dove, 2016; Schindel 2022b).</li>
+<li><strong>System 1 – Engineered System</strong>: product, defense system, or service subject to SE life cycle management.
+<ul>
+<li>Exists within <strong>System 2</strong> environment.</li>
+<li>Examples: Medical Devices, Aircraft, Consumer Packaged Goods, &#x26; Gas Turbine Engines.</li>
+<li>Termed the <strong>Engineered SoI</strong>.</li>
+</ul>
+</li>
+<li><strong>System 2 – Life Cycle Project Management System</strong>: socio-technical system (people, processes, facilities) providing environment for <strong>System 1</strong>.
+<ul>
+<li>Responsibilities: learn about <strong>System 1</strong> &#x26; environment -> apply learning to life cycle management.</li>
+<li>Examples: Requirements Definition, Verification, Manufacturing, Distribution, Sustainment, PLM Information Systems, &#x26; Digital Twin Systems.</li>
+</ul>
+</li>
+<li><strong>System 3 – Enterprise Process and Innovation System</strong>: contains <strong>System 2</strong>.
+<ul>
+<li>Responsibilities: learn about &#x26; improve <strong>System 2</strong> through organizational change management.</li>
+<li>Examples: Methodology Descriptions, Engineering Automation Tooling, Regulatory Authorities, Engineering Professional Societies, &#x26; Recruitment/Education.</li>
+</ul>
+</li>
+<li><strong>Ecosystem Pattern Integration</strong>: incorporates SE life cycle processes -> couples execution w/ prior learning for <strong>System 1</strong> &#x26; <strong>System 2</strong>.</li>
+<li><strong>Model Descriptive Purpose</strong>: reference model for planning &#x26; analyzing any engineering/life cycle management ecosystem.</li>
+<li><strong>Knowledge Hierarchy</strong>:
+<ul>
+<li><strong>System 2 Learned Models</strong> -> describe knowledge of <strong>System 1</strong>.</li>
+<li><strong>System 3 Learned Models</strong> -> describe knowledge of <strong>System 2</strong>.</li>
+</ul>
+</li>
+<li><strong>Pattern Configuration</strong>: adapts to local enterprise, project, or supply chain -> plans migration increments for advancing <strong>System 2</strong> capabilities.</li>
+</ul>
+</li>
+<li>
+<h3 id="the-hierarchy-within-a-system">The Hierarchy within a System</h3>
+<ul>
+<li><strong>System Element</strong>: discrete part fulfilling specified requirements (ISO/IEC/IEEE 15288, 2023).
+<ul>
+<li>Includes: hardware, software, data, humans, processes, procedures, facilities, materials, &#x26; natural entities.</li>
+</ul>
+</li>
+<li><strong>Atomic Element</strong>: element requiring only black box (external) representation for specification.
+<ul>
+<li>Enables confident make, buy, or reuse decisions without further decomposition.</li>
+</ul>
+</li>
+<li><strong>Hierarchy</strong>: organizational representation of system structure using partitioning relation.</li>
+<li><strong>Product Breakdown Structure (PBS)</strong>: complete set of distinct system elements partitioned from whole system.</li>
+<li><strong>Span of Control</strong>: heuristic recommending $7 \pm 2$ subordinate elements (Urwick, 1956; Miller, 1956).
+<ul>
+<li><strong>Too few elements</strong> -> potential redundancy in design &#x26; verification activities.</li>
+<li><strong>Too many elements</strong> -> unmanageable interface complexity between subordinate elements.</li>
+</ul>
+</li>
+<li><strong>Horizontal View</strong>: interrelationships of elements, requirements, activities (integration, verification, validation), &#x26; artifacts at specific architecture level.</li>
+<li><strong>Vertical View</strong>: relationship showing how horizontal elements derive from higher-level systems or lead to lower-level system elements.</li>
+<li><img  src="/_astro/c01f006_1768873123240_0.pfb9xCGe_1JN9Gk.webp" alt="c01f006.png" loading="lazy" decoding="async" fetchpriority="auto" width="1938" height="1115">{:height 410, :width 591}</li>
+</ul>
+</li>
+<li>
+<h3 id="systems-states-and-modes">Systems States and Modes</h3>
+<ul>
+<li><strong>System State</strong>: An observable and measurable … attribute used to characterize the current configuration, status, or performance-based condition of a System or Entity.(Wasson, 2016)
+<ul>
+<li><strong>State Snapshot</strong>: set of variables/measurements describing capability to perform functions.</li>
+<li><strong>State Variables</strong>: multidimensional list determining system state (Buede &#x26; Miller, 2016).
+<ul>
+<li>List remains constant over time.</li>
+<li>Values change over time.</li>
+</ul>
+</li>
+<li><strong>Control Theory</strong>: physical quantities determining system evolution</li>
+<li><strong>MBSE Perspective</strong>: concise description of system past history.</li>
+<li><strong>Future State Computation</strong>: current state + subsequent inputs $\rightarrow$ future states
+<ul>
+<li>Computation ignores history of inputs &#x26; responses.</li>
+</ul>
+</li>
+<li><strong>Operating &#x26; Physical Conditions</strong>:
+<ul>
+<li>Structural status: operational, failed, degraded, absent.</li>
+<li>Physical condition: e.g., fuel tank level, battery charge.</li>
+<li>Environment constraints: e.g., temperature, humidity.</li>
+</ul>
+</li>
+<li><strong>Monitoring &#x26; Management</strong>: managers observe state variables comprised of system attributes</li>
+</ul>
+</li>
+<li><strong>System Mode</strong>: A distinct operating capability of the system during which some or all of the system’s functions may be performed to a full or limited degree.(Buede and Miller, 2016)
+<ul>
+<li><strong>PC Examples</strong> (Wymore, 1993): off, on, waking up, waiting, reading/writing disk, computing, printing, down.</li>
+<li><strong>Functional Architecture</strong>: derived via affinity analysis of system use cases</li>
+<li><strong>Operating Mode Perspectives</strong>:
+<ul>
+<li>Mission phases: taxiing, taking-off, cruising, landing.</li>
+<li>Operating conditions: connected, autonomous.</li>
+<li>Usage conditions: test, training, maintenance.</li>
+</ul>
+</li>
+<li><strong>Mode Transitions</strong>: results of decisions by system, users, or external actors
+<ul>
+<li>Decisions based on observed state variable values.</li>
+<li>Transitions based on triggering events meeting entry &#x26; exit criteria</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="complexity">Complexity</h3>
+<ul>
+<li><strong>Simple System</strong>: elements w/ state relationships readily comprehended once observed.</li>
+<li><strong>Complicated System</strong>: elements w/ state relationships unfolded &#x26; comprehended -> sufficient certainty between cause &#x26; effect.</li>
+<li><strong>Complex System</strong>: elements w/ interwoven state relationships -> insufficient certainty between cause &#x26; effect.</li>
+<li><strong>Complexity Characteristics</strong>:
+<ul>
+<li>Systems typically possess mixture of complex, complicated, &#x26; simple traits.</li>
+<li>INCOSE Complexity Primer identifies $14$ distinguishing characteristics defining complexity.</li>
+</ul>
+</li>
+<li><strong>Complexity Impact</strong>:
+<ul>
+<li><strong>Positive behavior</strong>: self-organization &#x26; virtuous cycles.</li>
+<li><strong>Negative dynamics</strong>: novel, nonlinear, &#x26; counterintuitive behavior over time.</li>
+<li><strong>Risks</strong>: suboptimal operation, unintended consequences, &#x26; system obsolescence.</li>
+</ul>
+</li>
+<li><strong>Methodological Approaches</strong>:
+<ul>
+<li><strong>Reductionist Approach (Traditional SE)</strong>: decomposes problem into parts -> solves -> reassembles whole.
+<ul>
+<li>Suits complicated problems w/ fixed, deterministic, or predictable behavior.</li>
+</ul>
+</li>
+<li><strong>Iterative Approach</strong>: understands emergent interactions via exploration &#x26; adaptation.
+<ul>
+<li>Suits complex environments (e.g., autonomous vehicles, socio-technical systems).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Complex SE Requirements</strong>: balance linear/procedural methods (systematic activity) w/ holistic/nonlinear methods (systems thinking).</li>
+<li><strong>SE Tailoring</strong>: practitioners must match techniques &#x26; approaches to specific system type &#x26; complexity level.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h2 id="systems-engineering-foundations">Systems Engineering Foundations</h2>
+<ul>
+<li>
+<h3 id="uncertainty">Uncertainty</h3>
+<ul>
+<li><strong>Uncertainty Types</strong>:
+<ul>
+<li><strong>Epistemic Uncertainty</strong>: results from lack of knowledge.
+<ul>
+<li>Examples: potential demand, future technology/system/process performance, value attribute gaps, &#x26; acquirer preferences.</li>
+<li>Focus of system requirements process &#x26; development decisions.</li>
+</ul>
+</li>
+<li><strong>Aleatory Uncertainty</strong>: results from inherent randomness.
+<ul>
+<li>Present in every performance measurement.</li>
+<li>Cannot be completely reduced.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Uncertainty Sources impact project managers &#x26; SE practitioners throughout system life cycle</li>
+<li><strong>Decision Making under Uncertainty</strong>:
+<ul>
+<li>Decisions before knowledge acquisition increase risk.</li>
+<li>Key decisions require closing knowledge gap to appropriate level.</li>
+<li>SE practitioners record corresponding risks when deciding under uncertainty.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="cognitive-bias">Cognitive Bias</h3>
+<ul>
+<li><strong>Cognitive Bias</strong>: mental errors in judgment under uncertainty via simplified info processing (heuristics)
+<ul>
+<li>Consistent &#x26; predictable behavior.</li>
+<li>Categorized under <strong>Behavioral Decision-Making</strong>.</li>
+</ul>
+</li>
+<li><strong>Bias Impact</strong>: distorts decision making -> incidents, failures, or disasters.
+<ul>
+<li>Affects individual &#x26; team SE practitioners</li>
+</ul>
+</li>
+<li><strong>Mitigation Strategies</strong>: understand bias &#x26; establish organizational projects for unbiased assessments.
+<ul>
+<li>Apply formal methods for major system decisions</li>
+</ul>
+</li>
+<li><strong>External Group Methods</strong>: most effective mitigation approach.
+<ul>
+<li><strong>NASA Independent Technical Authority (ITA)</strong>: warns decision makers of potential failure.
+<ul>
+<li>Requires financial &#x26; organizational independence from project manager</li>
+</ul>
+</li>
+<li><strong>Aviation Crew Resource Management (CRM)</strong>: mandates all crew members warn pilot of imminent danger.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="systems-engineering-principles">Systems Engineering Principles</h3>
+<ul>
+<li><strong>Systems Engineering (SE)</strong>: exists as relatively young discipline (~ $30$ years).</li>
+<li><strong>SE vs. System Principles</strong>:
+<ul>
+<li><strong>System Principles</strong>: address behavior &#x26; properties of all systems via scientific basis.</li>
+<li><strong>SE Principles</strong>: build on general system principles &#x26; human activity systems</li>
+</ul>
+</li>
+<li><strong>INCOSE SE Principles (2022)</strong>: contains $15$ transcendent principles &#x26; $20$ subprinciples.</li>
+<li><strong>Principle Application</strong>: aids in determining life cycle models, implementing processes, &#x26; defining organizational constructs -> successful <strong>SoI</strong> development &#x26; sustainment.</li>
+</ul>
+</li>
+<li>
+<h3 id="systems-engineering-heuristics">Systems Engineering Heuristics</h3>
+<ul>
+<li><strong>SE Heuristics</strong>: short natural language expressions capturing accumulated professional wisdom.
+<ul>
+<li>Function as shortcuts, “rules of thumb,” or “words of the wise.”</li>
+<li>Provide general guidelines for professional conduct, advice, &#x26; situational action.</li>
+<li>Serve as decision-making aids &#x26; entry points for learning.</li>
+</ul>
+</li>
+<li><strong>Contexts of Use</strong>:
+<ul>
+<li><strong>Engineering Knowledge Encapsulation</strong>: makes accessible widely accepted practices &#x26; understood science.</li>
+<li><strong>Analytical Supplement</strong>: overcomes limitations of analytical approaches in complex, unbounded, or ill-structured problems.</li>
+</ul>
+</li>
+<li><strong>Historical Development</strong>:
+<ul>
+<li><strong>Knowledge Capture</strong>: ancient engineering (buildings, machines) recorded “how to” skills -> avoid repeated failures.</li>
+<li><strong>Early Rules</strong>: cathedral builders utilized “rules of thumb” (e.g., maintain low center of gravity; $80%$ mass in pillars).</li>
+<li><strong>Co-evolution</strong>: engineering &#x26; applied sciences drive mutual research &#x26; performance prediction.</li>
+<li><strong>Modern Complexity</strong>: SE incorporates social, behavioral, management, &#x26; systems sciences.</li>
+</ul>
+</li>
+<li><strong>System Architecture Guidance</strong>:
+<ul>
+<li>Heuristics guide system architects coordinating complex problem solutions.</li>
+<li>Often superior to detailed analysis due to high variable counts &#x26; stakeholder interaction complexity.</li>
+</ul>
+</li>
+<li><strong>Key SE Heuristics</strong>:
+<ul>
+<li><strong>Problem Verification</strong>: question original problem statements -> reach mutual stakeholder understanding early.</li>
+<li><strong>Early Unknowns</strong>: prioritize unidentified variables over known problems during initial stages.</li>
+<li><strong>Model Before Build</strong>: utilize evolutionary life cycles, rapid prototypes, &#x26; agile methods.
+<ul>
+<li>System Science Postulate: “The only complete model of the system in its environment is the system in its environment.”</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Heuristics Repository</strong>:
+<ul>
+<li>Functions as knowledge base via video, training, &#x26; interactive media.</li>
+<li>Requires metadata tagging &#x26; links to established knowledge sources.</li>
+<li>Organized by SE competency areas -> supports assembly of personalized heuristic sets.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h2 id="system-science-and-systems-thinking">System Science and Systems Thinking</h2>
+</li>
+<li><strong>Systems Worldview</strong>: emerges from interrelated concepts (boundary, relationships, environment, hierarchy, emergence, communication, control) + purpose.</li>
+<li><strong>Systems Thinking</strong>: recognizes patterns across phenomena, problem contexts, &#x26; disciplines.
+<ul>
+<li>Balances <strong>Systematic</strong> application (processes) w/ <strong>Systemic</strong> analysis (thinking).</li>
+</ul>
+</li>
+<li><strong>Virtuous Cycle</strong>: SE application -> reflection -> improved systems science &#x26; systems thinking -> enhanced complex system design.</li>
+<li><strong>Principle Hierarchy</strong>:
+<ul>
+<li><strong>Motivational Principles</strong>: express intentions.</li>
+<li><strong>Transdisciplinary Principles</strong>: select &#x26; organize technique principles.</li>
+<li><strong>Technique Principles</strong>: guide SE practice.</li>
+<li><img  src="/_astro/c01f007_1768874171295_0.Bp0nhtK7_17k3q.webp" alt="c01f007.png" loading="lazy" decoding="async" fetchpriority="auto" width="1953" height="991">{:height 352, :width 607}</li>
+</ul>
+</li>
+<li><strong>Systems Science</strong>: transdisciplinary approach identifying behavior patterns &#x26; establishing general theory for physical, natural, engineered, &#x26; social systems.</li>
+<li><strong>Scientific Paradigms</strong>:
+<ul>
+<li><strong>Reductionism</strong>: explains system workings via atomic units or isolable causal trains.</li>
+<li><strong>Complexity Theory</strong>: utilizes bottom-up agent-based modeling</li>
+<li><strong>Holism</strong>: connects/contextualizes elements &#x26; environment -> understands organized complexity patterns.</li>
+</ul>
+</li>
+<li><strong>General System Theory (GST)</strong>: universal principles applicable to systems irrespective of component nature or relations.
+<ul>
+<li>Focus areas: Growth &#x26; regulation, Hierarchical order &#x26; equifinality, Progressive differentiation, mechanization, &#x26; centralization, Closed &#x26; open systems, Competition &#x26; evolution -> higher organization, Teleology &#x26; goal-directedness.</li>
+</ul>
+</li>
+<li><strong>Systems Methodologies</strong>: translate hypotheses -> practical action.
+<ul>
+<li>Examples: System dynamics, Viable system model, Soft systems methodology (SSM), Critical systems heuristics (CSH)</li>
+</ul>
+</li>
+<li><strong>System of Systems Methodologies (SOSM)</strong>: classifies methodologies by complexity &#x26; stakeholder viewpoints.</li>
+<li><strong>Critical Systems Thinking (CST)</strong>: multi-perspectival, multi-methodological approach combining methods based on strengths/weaknesses.</li>
+<li><strong>Methodology Integration</strong>: hybrid solutions tailored via technical, organizational, cultural, &#x26; political factors -> address hyper-complexity.</li>
+</ul>
+</li>
+<li>
+<h1 id="system-life-cycle-concepts-models-and-processes">System Life Cycle Concepts, Models, and Processes</h1>
+<ul>
+<li>
+<h2 id="life-cycle-terms-and-concepts">Life Cycle Terms and Concepts</h2>
+<ul>
+<li>Introduction
+<ul>
+<li><strong>SE Purpose</strong>: enable successful system realization &#x26; optimize competing stakeholder objectives.</li>
+<li><strong>Realization Management</strong>: partition effort -> transformational <strong>Stages</strong>.</li>
+<li><strong>Stage Evaluation</strong>:
+<ul>
+<li>Check system characteristics fulfillment.</li>
+<li>Assess risk acceptability.</li>
+<li>Verify stage entry readiness.</li>
+</ul>
+</li>
+<li><strong>Execution Flexibility</strong>: stages occur multiple times, in parallel, or non-sequentially.</li>
+<li><strong>Decision Gates</strong>: specific decision points gating progress.</li>
+<li><strong>System Life Cycle</strong>: set of stages defining engineered system progression.
+<ul>
+<li><strong>Decision gates</strong> determine stage completion &#x26; initiation.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="life-cycle-characteristics">Life Cycle Characteristics</h3>
+<ul>
+<li><img  src="/_astro/c02f001_1768874575630_0.KNq4BXp0_ZmQyAH.webp" alt="c02f001.png" loading="lazy" decoding="async" fetchpriority="auto" width="1873" height="553">{:height 175, :width 510}</li>
+<li><strong>Life Cycle Stages</strong>: define progress toward system characteristics.</li>
+<li><strong>Stage Dynamics</strong>:
+<ul>
+<li>Entry triggered by <strong>SoI</strong> or system element needs.</li>
+<li>Support multiple entries, concurrency, &#x26; overlapping.</li>
+<li>Allow non-sequential execution.</li>
+<li><strong>Retirement Stage</strong>: applies to whole <strong>SoI</strong> or specific system elements.</li>
+</ul>
+</li>
+<li><strong>Decision Gates</strong>:
+<ul>
+<li><strong>Entry Gate</strong>: verifies entry criteria fulfillment &#x26; resource availability.</li>
+<li><strong>Exit Gate</strong>: confirms objective achievement &#x26; risk acceptability.</li>
+</ul>
+</li>
+<li><strong>Interdependent Life Cycles</strong>:
+<ul>
+<li><strong>System Elements</strong>: possess individual life cycles requiring management for <strong>SoI</strong> integration.</li>
+<li><strong>System of Systems (SoS)</strong>: constituent system evolution impacts <strong>SoI</strong> life cycle.</li>
+<li><strong>Enabling Systems</strong>: require integration w/ <strong>SoI</strong> life cycle.</li>
+</ul>
+</li>
+<li><strong>Integration Strategy</strong>: flow down requirements to elements.
+<ul>
+<li>Synchronize decision gates across diverse life cycle models -> support progressive integration.</li>
+</ul>
+</li>
+<li><strong>Temporal Variability</strong>: stage duration varies by system type.
+<ul>
+<li><strong>High-longevity systems (e.g., jet aircraft, nuclear facilities)</strong>: rapid development -> decades of utilization/support.</li>
+<li><strong>Short-longevity systems (e.g., mobile phones)</strong>: frequent development -> brief utilization/retirement periods.</li>
+</ul>
+</li>
+<li><strong>Stage Purpose</strong>: facilitates decision-making at critical milestones.</li>
+</ul>
+</li>
+<li>
+<h3 id="typical-life-cycle-stages">Typical Life Cycle Stages</h3>
+<ul>
+<li><strong>Concept Stage</strong>: starts w/ mission/business need recognition.
+<ul>
+<li><strong>Exploration Factors</strong>: address technical, economic, market, &#x26; human resource considerations.</li>
+<li><strong>Methods</strong>: surveys, trade-off studies, business/mission analyses.</li>
+<li><strong>Objectives</strong>:
+<ul>
+<li>Define problem space (existing issue or new opportunity).</li>
+<li>Characterize solution space.</li>
+<li>Identify stakeholder needs &#x26; requirements.</li>
+<li>Estimate cost, schedule, &#x26; performance across life cycle.</li>
+</ul>
+</li>
+<li><strong>Risk Management</strong>: perform ongoing robust assessment.</li>
+<li><strong>Stakeholder Feedback</strong>: obtain from customers, users, &#x26; suppliers.</li>
+<li><strong>Enabling Systems</strong>: consider maturity &#x26; availability.</li>
+<li><strong>Outputs</strong>:
+<ul>
+<li>Preliminary artifacts: Operational Concept (OpsCon) &#x26; Support Concept.</li>
+<li>SE methodology approach.</li>
+<li>Feasibility assessments: models, simulations, &#x26; prototypes.</li>
+<li>Preliminary architecture &#x26; system requirements.</li>
+<li>Acquisition strategies.</li>
+</ul>
+</li>
+<li><strong>Criticality</strong>: decisions shape &#x26; limit remaining life cycle stages.</li>
+</ul>
+</li>
+<li><strong>Development Stage</strong>: defines <strong>SoI</strong> meeting needs for production, utilization, support, &#x26; retirement.
+<ul>
+<li><strong>Methods</strong>: system analysis, trade-off analysis, modeling, simulation, &#x26; prototyping.</li>
+<li><strong>Goal</strong>: mature concepts $\rightarrow$ engineering baseline.</li>
+<li><strong>Engineering Baseline</strong>: includes requirements, architecture, design, documentation, &#x26; plans.</li>
+<li><strong>Outputs</strong>:
+<ul>
+<li><strong>SoI</strong> prototype.</li>
+<li>Enabling system requirements.</li>
+<li>Plans: integration, verification, validation, transition, &#x26; acquisition.</li>
+<li>Management plans: logistics, risk, staffing, &#x26; training.</li>
+<li>Detailed cost estimates &#x26; schedules.</li>
+</ul>
+</li>
+<li><strong>Execution</strong>: supports incremental/phased realization for complex systems.</li>
+</ul>
+</li>
+<li><strong>Production Stage</strong>: translates development baselines $\rightarrow$ actual system upon approval.
+<ul>
+<li><strong>Scope</strong>: includes enabling systems &#x26; all baseline areas.</li>
+<li><strong>Objectives</strong>:
+<ul>
+<li>Realize <strong>SoI</strong>.</li>
+<li>Qualify for use.</li>
+<li>Prepare for installation &#x26; transition.</li>
+</ul>
+</li>
+<li><strong>Outputs</strong>:
+<ul>
+<li>Realized <strong>SoI</strong> portions &#x26; enabling systems.</li>
+<li>Documentation for utilization, support, &#x26; retirement.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Utilization Stage</strong>: begins w/ transition to use in intended environment.
+<ul>
+<li><strong>Enabling Systems</strong>: support system capabilities.</li>
+<li><strong>Product Modifications</strong>: remedy deficiencies, enhance capabilities, or extend life.</li>
+<li><strong>SE Requirements</strong>:
+<ul>
+<li>Maintain documentation from prior stages.</li>
+<li>Apply Technical Management Processes (Configuration &#x26; Risk Management).</li>
+<li>Ensure ongoing SE support.</li>
+</ul>
+</li>
+<li><strong>Timeline</strong>: typically longer than other stages; proceeds in parallel w/ Support stage.</li>
+</ul>
+</li>
+<li><strong>Support Stage</strong>: begins w/ provisioning support for utilization.
+<ul>
+<li><strong>Timing</strong>: planning &#x26; acquisition often precede utilization.</li>
+<li><strong>Activity</strong>: monitor deficiencies/failures $\rightarrow$ remediation or evolutionary modification.</li>
+<li><strong>Modification Goals</strong>: resolve supportability, reduce costs, or extend life.</li>
+<li><strong>SE Assessment</strong>: prevent capability loss or requirement violations during modification.</li>
+<li><strong>Termination</strong>: ends at end-of-useful-life or support cessation decision.</li>
+</ul>
+</li>
+<li><strong>Retirement Stage</strong>: removes system/element/services from operation.
+<ul>
+<li><strong>SE Focus</strong>: satisfy disposal requirements.</li>
+<li><strong>Activity</strong>: archive documentation from utilization &#x26; support stages.</li>
+<li><strong>Planning</strong>: occurs during Concept &#x26; Development stages.</li>
+<li><strong>Legal Accountability</strong>: developer often responsible for proper end-of-life disposal.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="decision-gates">Decision Gates</h3>
+<ul>
+<li><strong>Decision Gates</strong>: risk-managing points gating progress at stage boundaries.
+<ul>
+<li>Ensure stage readiness &#x26; objective fulfillment.</li>
+<li>Context: “project milestones” or “milestone reviews.”</li>
+<li>Require documented decisions based on established criteria.</li>
+</ul>
+</li>
+<li><strong>Agile Decision Points</strong>: utilize alternative cadence.
+<ul>
+<li>Avoid terms “milestones” &#x26; “decision gates.”</li>
+<li>Frequent stakeholder interaction -> increased frequency, reduced scope, &#x26; decreased formality.</li>
+</ul>
+</li>
+<li><strong>Decision Gate Goals</strong>:
+<ul>
+<li>Confirm system maturity within threshold.</li>
+<li>Satisfy business case via project deliverables.</li>
+<li>Ensure sufficient resources for current &#x26; subsequent stages.</li>
+<li>Address unresolved issues.</li>
+<li>Maintain acceptable overall risk for life cycle progression.</li>
+</ul>
+</li>
+<li>Criteria for decision gate
+<ul>
+<li><img  src="/_astro/c02f003_1768875693469_0.DXFeuRoD_ZLdOPJ.webp" alt="c02f003.png" loading="lazy" decoding="async" fetchpriority="auto" width="1684" height="845">{:height 253, :width 480}</li>
+</ul>
+</li>
+<li><strong>Decision Logic Cases</strong>:
+<ul>
+<li>the entry criteria are met, but the start of the stage is delayed;</li>
+<li>when the entry criteria are met, the decision to start the stage is made;</li>
+<li>although the entry criteria are not met, the stage is started;</li>
+<li>although the exit criteria are met, the decision to end the stage is delayed;</li>
+<li>when the exit criteria are met, the decision to end the stage is made;</li>
+<li>the decision to end the stage is made before the exit criteria are met.</li>
+</ul>
+</li>
+<li><strong>Gate Decision Options</strong>:
+<ul>
+<li>Begin subsequent stage(s).</li>
+<li>Continue current stage (w/ potential reformulation).</li>
+<li>Restart/return to preceding stage.</li>
+<li>Hold project activity.</li>
+<li>Terminate project.</li>
+<li>Differentiated decisions (complex systems): move parts forward, hold parts, terminate/reform others.</li>
+</ul>
+</li>
+<li><strong>Approval Requirements</strong>:
+<ul>
+<li>Qualified experts, stakeholders, &#x26; management review.</li>
+<li>Evidence of criteria compliance.</li>
+<li>Balance formality &#x26; frequency -> critical success factor.</li>
+<li>Avoid superficial/skipped reviews -> prevents long-term costs &#x26; failures.</li>
+</ul>
+</li>
+<li><strong>Environmental Changes</strong>:
+<ul>
+<li>Track changes in business case, system scope, &#x26; resources.</li>
+<li>Update &#x26; evaluate decision criteria at every gate -> prevents cost overruns &#x26; delays.</li>
+</ul>
+</li>
+<li><strong>Configuration Management</strong>:
+<ul>
+<li>Approve artifacts (documents, analysis, models) as basis for future work.</li>
+<li>Place artifacts, decisions, rationale, &#x26; assumptions under configuration control.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="technical-reviews-and-audits">Technical Reviews and Audits</h3>
+<ul>
+<li><strong>Technical Review</strong>: SE activities at transition points assessing progress vs technical requirements &#x26; criteria</li>
+<li><strong>Audit</strong>: detailed review of processes, products, &#x26; compliance -> confirms required attributes or configuration.</li>
+<li><strong>Planning &#x26; Integration</strong>:
+<ul>
+<li>Record reviews/audits in <strong>Systems Engineering Management Plan (SEMP)</strong> &#x26; schedule.</li>
+<li>Integrate w/ decision gate reviews.</li>
+<li>Tailor per project needs &#x26; methodologies</li>
+</ul>
+</li>
+<li><strong>Baseline Relationship</strong>:
+<ul>
+<li>Connect reviews/audits -> technical baselines.</li>
+<li>Depiction varies between sequential &#x26; incremental life cycle models.</li>
+</ul>
+</li>
+<li>Relationship between technical reviews and audits and the technical baselines
+<ul>
+<li><img  src="/_astro/c02f004_1768876145050_0.CwXknLe0_ZmEV3v.webp" alt="c02f004.png" loading="lazy" decoding="async" fetchpriority="auto" width="1950" height="1204">{:height 261, :width 448}</li>
+</ul>
+</li>
+<li><strong>Assessment Objectives</strong>:
+<ul>
+<li>Requirement &#x26; stakeholder expectation fulfillment.</li>
+<li>Quality Characteristics (<strong>QCs</strong>) acceptability.</li>
+<li>Maturity &#x26; risk levels.</li>
+<li>Verification &#x26; Validation (<strong>V&#x26;V</strong>) path.</li>
+</ul>
+</li>
+<li><strong>Good Practices</strong>:
+<ul>
+<li>Plan location &#x26; date via concurrence.</li>
+<li>Apply multiple instances across hierarchy &#x26; increments.</li>
+<li>Remove redundant reviews/audits.</li>
+<li>Define entry &#x26; exit criteria.</li>
+<li>Establish roles for preparation, conduct, &#x26; acceptance.</li>
+<li>Prioritize risk-driven or event-driven execution over schedule-driven dates.</li>
+<li>Use dry-runs for efficiency.</li>
+<li>Include <strong>Subject Matter Experts (SMEs)</strong> &#x26; independent reviewers.</li>
+<li>Engage team, acquirers, &#x26; suppliers.</li>
+<li>Track actions w/ ownership &#x26; due dates -> follow up.</li>
+</ul>
+</li>
+<li><strong>Review Participants</strong>:
+<ul>
+<li>Project Manager.</li>
+<li>Lead SE Practitioner / Chief Engineer / Lead Engineer.</li>
+<li>Review or Audit Chair.</li>
+<li>Recorder.</li>
+<li>Acquirer &#x26; Supplier Representatives.</li>
+<li>Project <strong>V&#x26;V</strong> Lead.</li>
+<li>Technical Leads.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h2 id="life-cycle-model-approaches">Life Cycle Model Approaches</h2>
+<ul>
+<li>Introduction
+<ul>
+<li><strong>Life Cycle Models</strong>: frameworks planning/implementing stages &#x26; transitions.</li>
+<li>Concepts for the three life cycle model approaches
+<ul>
+<li><img  src="/_astro/c02f005_1768876549205_0.cH_p9zIj_NPbpM.webp" alt="c02f005.png" loading="lazy" decoding="async" fetchpriority="auto" width="1950" height="1462">{:height 402, :width 554}</li>
+</ul>
+</li>
+<li>
+<h2 id="approach-characteristics"><strong>Approach Characteristics</strong>:</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th><strong>Life cycle approach</strong></th><th><strong>Requirement set at start</strong></th><th><strong>Planned iterations</strong></th><th><strong>Multiple deployments</strong></th></tr></thead><tbody><tr><td><strong>Sequential</strong></td><td>Full</td><td>Single</td><td>No</td></tr><tr><td><strong>Incremental</strong></td><td>Full</td><td>Multiple</td><td>Potential</td></tr><tr><td><strong>Evolutionary</strong></td><td>Partial</td><td>Multiple</td><td>Typically</td></tr></tbody></table>
+</li>
+<li><strong>Selection Factors</strong>:
+<ul>
+<li>Operational environment stability &#x26; variety.</li>
+<li>Stakeholder risks (commercial or performance).</li>
+<li>Novelty, size, &#x26; complexity.</li>
+<li>Utilization start date &#x26; duration.</li>
+<li>Integrity issues: safety, security, privacy, usability, availability.</li>
+<li>Emerging technology opportunities.</li>
+<li>Budget &#x26; organizational resource profiles.</li>
+<li>Enabling system availability.</li>
+<li>Roles, responsibilities, accountabilities, &#x26; authorities.</li>
+<li>Standard conformance requirements.</li>
+</ul>
+</li>
+<li><strong>PMI Situation Context Framework (SCF)</strong>:
+<ul>
+<li>Defines strategy for software-based solution delivery.</li>
+<li><strong>7 Dimensions</strong>:
+<ul>
+<li>Team size.</li>
+<li>Geographic distribution.</li>
+<li>Organizational distribution.</li>
+<li>Skill availability.</li>
+<li>Compliance.</li>
+<li>Domain complexity.</li>
+<li>Solution complexity.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Tailoring Strategy</strong>: organizations evaluate &#x26; select suitable approach or combination of approaches based on context.</li>
+</ul>
+</li>
+<li>
+<h3 id="sequential-methods">Sequential Methods</h3>
+<ul>
+<li><strong>Sequential Approach</strong>: linear flow of processes w/ feedback loops -> single delivery.</li>
+<li><strong>Project Context</strong>: coordinates large teams across multiple companies via disciplined framework.</li>
+<li><strong>Characteristics</strong>:
+<ul>
+<li>Systematic adherence to specified processes.</li>
+<li>Transitions from requirements -> design -> finished product.</li>
+<li>Emphasizes documentation completeness, requirement traceability, &#x26; post-facto verification.</li>
+</ul>
+</li>
+<li><strong>Strengths</strong>: predictability, stability, repeatability, &#x26; high assurance.</li>
+<li><strong>Process Improvement</strong>: focuses on standardization, measurement, &#x26; control.</li>
+<li><strong>Planning</strong>: utilizes “master plans” &#x26; historical data for accurate projections.</li>
+<li><strong>Waterfall Model</strong>:
+<ul>
+<li>Derived from manufacturing &#x26; construction.</li>
+<li>Suited for environments where design changes are prohibitively expensive.</li>
+<li>Essential for safety-critical products &#x26; certification standards</li>
+</ul>
+</li>
+<li><strong>SE Vee Model</strong>:
+<ul>
+<li>Visualizes SE focus by pairing development stages w/ testing stages.</li>
+<li><strong>Core Features</strong>:
+<ul>
+<li>Continuous stakeholder validation.</li>
+<li>Verification plan definition during requirements development.</li>
+<li>Continuous risk &#x26; opportunity assessment.</li>
+</ul>
+</li>
+<li>The SE Vee model
+<ul>
+<li><img  src="/_astro/c02f006_1768876649119_0.L1g6uvVF_ifMIQ.webp" alt="c02f006.png" loading="lazy" decoding="async" fetchpriority="auto" width="1948" height="1283">{:height 464, :width 515}</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Vee Model Structure</strong>:
+<ul>
+<li><strong>Left Side (System Definition)</strong>: evolving baseline (stakeholder requirements -> system requirements -> architecture -> element definition).</li>
+<li><strong>Bottom</strong>: recursive application of life cycle processes or atomic element implementation.</li>
+<li><strong>Right Side (System Realization)</strong>: implementation, integration, verification, &#x26; validation.</li>
+<li><strong>Temporal/Maturity Flow</strong>: proceeds left to right (down left, up right).</li>
+<li><strong>Concurrency</strong>: life cycle processes applied concurrently, iteratively, &#x26; recursively at each hierarchy level.</li>
+</ul>
+</li>
+<li><strong>Vee Operational Elements</strong>:
+<ul>
+<li><strong>In-process Validation</strong>: ensures baselines acceptable to stakeholders.</li>
+<li><strong>Change Control</strong>: formal process for post-baselining modifications.</li>
+<li><strong>Recursive Iteration</strong>: SE processes iterate at each stage to ensure feasibility &#x26; support.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="incremental-methods">Incremental Methods</h3>
+<ul>
+<li><strong>Incremental Approach</strong>: provides initial capability followed by successive deliveries -> desired <strong>SoI</strong>.</li>
+<li><strong>Goal</strong>: rapid value &#x26; responsiveness.</li>
+<li><strong>Process</strong>:
+<ul>
+<li>Define candidate set of increments based on requirements.</li>
+<li>Repeat cycles until system deployment or effort termination.</li>
+<li>Intermediate increments support learning.</li>
+</ul>
+</li>
+<li><strong>Application Context</strong>:
+<ul>
+<li>Marketing new product versions at planned intervals.</li>
+<li>High technical risk environments -> enables latest technology insertion.</li>
+</ul>
+</li>
+<li><strong>Planning &#x26; Cadence</strong>:
+<ul>
+<li>Establish cycle times &#x26; constant cadence.</li>
+<li>Synchronize w/ integration testing, evaluation, &#x26; production release.</li>
+<li>Minimize rework cost via experimental &#x26; empirical learning.</li>
+</ul>
+</li>
+<li><strong>Incremental Commitment Spiral Model (ICSM):</strong>
+<ul>
+<li>Extension of classic Spiral Model</li>
+<li>Addresses requirements &#x26; solutions concurrently.</li>
+<li>Evaluates:
+<ul>
+<li>Products &#x26; processes.</li>
+<li>Hardware, software, &#x26; human aspects.</li>
+<li>Business case (alternative configurations/investments).</li>
+</ul>
+</li>
+<li><strong>Decision Logic</strong>: progress to next spiral (increment) if risks acceptable &#x26; covered by mitigation plans.</li>
+<li><img  src="/_astro/c02f007_1768876743254_0.Ly1524Mn_Zx2FCq.webp" alt="c02f007.png" loading="lazy" decoding="async" fetchpriority="auto" width="1954" height="1324">{:height 562, :width 641}</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="evolutionary-methods">Evolutionary Methods</h3>
+<ul>
+<li><strong>Evolutionary Approach</strong>: addresses unknown or partially known requirements in novel systems.</li>
+<li><strong>Applications</strong>: Research &#x26; Development (R&#x26;D), <strong>System of Systems (SoS)</strong>, Agile software, &#x26; NASA space shuttle high-temperature tiles</li>
+<li><strong>Cycle Planning</strong>: regular periodic cycles -> deployable versions.
+<ul>
+<li>Requirement refinement occurs w/ each cycle.</li>
+<li>Experience from earlier cycles -> informs subsequent cycles.</li>
+</ul>
+</li>
+<li><strong>Configuration Control</strong>: essential for simultaneous operation/support of multiple versions.
+<ul>
+<li>Manages manuals, maintenance instructions, spare parts, &#x26; disposal instructions.</li>
+<li>Prevents confusion in capability assignment across parallel versions.</li>
+</ul>
+</li>
+<li><strong>Strategic Benefits</strong>:
+<ul>
+<li>Enables steady stakeholder feedback.</li>
+<li><strong>Minimal Viable Product (MVP)</strong>: demonstrates feasibility &#x26; facilitates market entry.</li>
+<li>Allows planning for emerging technical innovations in later versions.</li>
+</ul>
+</li>
+<li><strong>Evolution Strategy</strong>:
+<ul>
+<li>Decide between complete replacement vs partial/complete upgrades.</li>
+<li>Focus on adaptability, flexibility, &#x26; modularity during early cycles.</li>
+<li>Context: life cycle cost.</li>
+</ul>
+</li>
+<li><strong>DevOps</strong>: goal is continuous integration &#x26; delivery.
+<ul>
+<li><strong>Key Principles</strong>: shared ownership, workflow automation, &#x26; rapid feedback.</li>
+<li><strong>DevSecOps</strong>: integrates security practices -> empowers delivery teams to select security means.</li>
+<li><img  src="/_astro/c02f008_1768876994480_0.BUKQBOPO_Z1BAc2p.webp" alt="c02f008.png" loading="lazy" decoding="async" fetchpriority="auto" width="1066" height="543">{:height 193, :width 295}</li>
+</ul>
+</li>
+<li><strong>Mixed Approach (Rockwell Collins)</strong>: combines incremental &#x26; evolutionary methods
+<ul>
+<li><strong>Asynchronous Iterations</strong>: electronic hardware increments vs firmware &#x26; software epics (versions).</li>
+<li>Integrated work-in-process testing w/ latest components.</li>
+<li><img  src="/_astro/c02f009_1768877003897_0.BBAtWXIO_1JxgN5.webp" alt="c02f009.png" loading="lazy" decoding="async" fetchpriority="auto" width="1950" height="1531">{:height 401, :width 498}</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h2 id="system-life-cycle-processes">System Life Cycle Processes</h2>
+<ul>
+<li>
+<h3 id="introduction-to-the-system-life-cycle-processes">Introduction to the System Life Cycle Processes</h3>
+<ul>
+<li><strong>Process</strong>: series of activities &#x26; tasks -> achieve outcomes for stated purpose.</li>
+<li><strong>SE Life Cycle Processes</strong>: enablers managing system solutions across life cycle stages.
+<ul>
+<li>Application: concurrent, iterative, &#x26; recursive w/ tools &#x26; technology.</li>
+</ul>
+</li>
+<li><img  src="/_astro/c02f010_1768877156928_0.29BAmeXK_Z25WMBI.webp" alt="c02f010.png" loading="lazy" decoding="async" fetchpriority="auto" width="1500" height="845">{:height 357, :width 556}</li>
+</ul>
+</li>
+<li>
+<h3 id="agreement-processes">Agreement Processes</h3>
+<ul>
+<li><strong>Project Initiation</strong>: identification of problem/opportunity -> development of needs -> project establishment.</li>
+<li><strong>Agreement Processes</strong>: activities establishing agreement between $2$ organizations.</li>
+<li><strong>Scope</strong>: focused on acquisition &#x26; supply of systems, system elements, products, or services.</li>
+<li><strong>Relationship Types</strong>:
+<ul>
+<li>Independent organizations.</li>
+<li>Organizations within same parent enterprise.</li>
+</ul>
+</li>
+<li><strong>Usage Drivers</strong>:
+<ul>
+<li>Organization cannot satisfy need internally.</li>
+<li>Supplier provides superior economy or timeliness.</li>
+<li>Higher authority directs specific supplier use.</li>
+<li>Organization requires materials or specialized services.</li>
+</ul>
+</li>
+<li><strong>Primary Objectives</strong>:
+<ul>
+<li>Identify acquirer-supplier interfaces.</li>
+<li>Establish terms &#x26; conditions.</li>
+<li>Define required inputs &#x26; provided outputs.</li>
+</ul>
+</li>
+<li><strong>Negotiation Formats</strong>:
+<ul>
+<li><strong>Formal</strong>: contract negotiation refining terms.</li>
+<li><strong>Informal</strong>: intra-organizational coordination between business units.</li>
+</ul>
+</li>
+<li><strong>SE Practitioner Role</strong>: support project management during negotiations.
+<ul>
+<li>Perform impact assessments for changes.</li>
+<li>Execute trade studies on alternatives.</li>
+<li>Conduct risk assessments.</li>
+<li>Provide technical input for decisions.</li>
+</ul>
+</li>
+<li><strong>Acceptance Criteria</strong>: negotiated during agreement processes -> protects business relationship.
+<ul>
+<li>Protects acquirer from poor quality.</li>
+<li>Protects supplier from unpredictable acquirer actions.</li>
+</ul>
+</li>
+<li><strong>Consensus Tracking</strong>: monitor progress toward agreement in documents &#x26; clauses.</li>
+<li><strong>Core Processes</strong>: <strong>Acquisition</strong> &#x26; <strong>Supply</strong>.
+<ul>
+<li>Establish context &#x26; constraints for all other life cycle processes.</li>
+<li><strong>Dual Roles</strong>: organization may act as supplier (to customer) &#x26; acquirer (from vendors) for same system.</li>
+</ul>
+</li>
+<li><strong>Agreement Modifications</strong>: result from change requests, deviations, waivers, or context shifts.</li>
+<li><strong>Statement of Compliance</strong>: tracks agreed changes, impacted requirements, &#x26; V&#x26;V status.</li>
+</ul>
+</li>
+<li>
+<h3 id="organizational-project-enabling-processes">Organizational Project-Enabling Processes</h3>
+<ul>
+<li><strong>Organizational Project-Enabling Processes</strong>: provide resources enabling projects -> meet stakeholder needs &#x26; expectations.
+<ul>
+<li><strong>Strategic Functions</strong>:
+<ul>
+<li>Manage &#x26; improve organizational undertakings.</li>
+<li>Provision &#x26; deploy resources &#x26; assets.</li>
+<li>Manage risk in competitive/uncertain situations.</li>
+<li>Establish project environment.</li>
+</ul>
+</li>
+<li><strong>Operational Scope</strong>: focuses on system life cycle capabilities.</li>
+<li><strong>Tailoring</strong>: adapts processes &#x26; interfaces -> meet strategic &#x26; tactical project objectives.</li>
+<li><strong>Six Core Processes</strong>:
+<ul>
+<li>Life Cycle Model Management.</li>
+<li>Infrastructure Management.</li>
+<li>Portfolio Management.</li>
+<li>Human Resource Management.</li>
+<li>Quality Management.</li>
+<li>Knowledge Management.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="technical-management-processes">Technical Management Processes</h3>
+<ul>
+<li><strong>Technical Management Processes</strong>: manage resources/assets -> fulfill organization agreements.
+<ul>
+<li><strong>Technical Effort Functions</strong>:
+<ul>
+<li>Plan cost, timescales, &#x26; achievements.</li>
+<li>Verify plan compliance &#x26; performance criteria.</li>
+<li>Identify &#x26; select corrective actions for progress shortfalls.</li>
+<li>Establish/perform technical plans.</li>
+<li>Manage technical team information.</li>
+<li>Assess progress against system product/service plans.</li>
+<li>Control technical tasks.</li>
+<li>Support decision-making.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Eight Core Processes</strong>:
+<ul>
+<li>Project Planning.</li>
+<li>Project Assessment and Control.</li>
+<li>Decision Management.</li>
+<li>Risk Management.</li>
+<li>Configuration Management.</li>
+<li>Information Management.</li>
+<li>Measurement.</li>
+<li>Quality Assurance.</li>
+</ul>
+</li>
+<li><strong>Process Integration</strong>:
+<ul>
+<li>Consistent application throughout system life cycle.</li>
+<li>Collaboration w/ project management established in “shared space.”</li>
+</ul>
+</li>
+<li><strong>Professional Perspectives</strong>:
+<ul>
+<li><strong>Project Management</strong>: project start -> project end.</li>
+<li><strong>Systems Engineering</strong>: system concept -> system retirement.</li>
+</ul>
+</li>
+<li><strong>Resource Application</strong>: technical &#x26; administrative resources -> plan, organize, &#x26; control engineering functions.</li>
+</ul>
+</li>
+<li>
+<h3 id="technical-processes">Technical Processes</h3>
+<ul>
+<li>Introduction
+<ul>
+<li><img  src="/_astro/c02f038_1768877522799_0.BI0zaRzR_3IQIX.webp" alt="c02f038.png" loading="lazy" decoding="async" fetchpriority="auto" width="1500" height="864">{:height 419, :width 749}</li>
+<li><strong>Technical Processes</strong>: define requirements, transform requirements -> product, permit reproduction, use product, provide/sustain services, &#x26; dispose of retired product.</li>
+<li><strong>Coordination Function</strong>: aligns interactions between engineering specialists, other disciplines, acquirers, operators, manufacturing, &#x26; stakeholders.</li>
+<li><strong>System Constraints</strong>: address capabilities within bounds of:
+<ul>
+<li>Performance.</li>
+<li>Environment.</li>
+<li>External interfaces.</li>
+<li>Ethical norms.</li>
+<li>Societal expectations.</li>
+<li>Regulations.</li>
+<li>Design constraints.</li>
+</ul>
+</li>
+<li><strong>Risk Mitigation</strong>: Technical Processes reduce project failure risk.</li>
+<li><strong>System Transformation</strong>: series of actions transform input artifacts -> output artifacts -> <strong>SoI</strong> addressing stakeholder needs.</li>
+<li><strong>Technical Process Execution</strong>:
+<ul>
+<li>Practiced concurrently, iteratively, &#x26; recursively.</li>
+<li>Applies to each system element within system architecture.</li>
+</ul>
+</li>
+<li><strong>Integration Process</strong>:
+<ul>
+<li>Applied from project initiation.</li>
+<li>Manages integrated system throughout system architecture traversal.</li>
+<li>Addresses part interactions &#x26; macro system interactions.</li>
+<li>Assesses behavior &#x26; emergent properties -> Interface Management</li>
+</ul>
+</li>
+<li><strong>Verification Process</strong>: validates output artifacts vs. system requirements -> ensures transformation was “right.”</li>
+<li><strong>Post-deployment Activities</strong>:
+<ul>
+<li><strong>Validation</strong>: confirms <strong>SoI</strong> meets real-world expectations.</li>
+<li><strong>Verification</strong>: confirms <strong>SoI</strong> continues meeting requirements over time.</li>
+</ul>
+</li>
+<li><strong>System of Systems (SoS) Context</strong>: <strong>SoS</strong> configurations place new requirements on <strong>SoI</strong> across life cycle stages</li>
+</ul>
+</li>
+<li>
+<h4 id="business-or-mission-analysis-process">Business or Mission Analysis Process</h4>
+<ul>
+<li><img  src="/_astro/c02f039_1768877719994_0.CB34cLG8_Z1KPq0s.webp" alt="c02f039.png" loading="lazy" decoding="async" fetchpriority="auto" width="1854" height="1000">{:height 257, :width 480}</li>
+<li><strong>Purpose</strong>: define strategic problem/opportunity, characterize solution space, &#x26; determine potential solution class(es)</li>
+<li><strong>Process Description</strong>: initiates <strong>SoI</strong> life cycle.
+<ul>
+<li>Defines problem/opportunity space &#x26; identifies major stakeholders.</li>
+<li>Prioritizes business needs &#x26; requirements.</li>
+<li>Defines critical business success measures.</li>
+<li>Develops preliminary life cycle concepts (operations, acquisition, deployment, support, retirement).</li>
+<li>Evaluates alternative solution classes $\rightarrow$ selects preferred solution class.</li>
+</ul>
+</li>
+<li><strong>Preparation Activities</strong>:
+<ul>
+<li>Identify problems/opportunities from organization strategy &#x26; <strong>ConOps</strong> changes.</li>
+<li>Detect capability gaps or deficiencies in existing systems, products, or services.</li>
+<li>Establish strategy/approach for analysis &#x26; solution space characterization.</li>
+<li>Plan/ensure access to enabling systems (IT, financial systems, security, SE tools).</li>
+</ul>
+</li>
+<li><strong>Problem/Opportunity Space Definition</strong>:
+<ul>
+<li>Analyze trade-space factors: scope, drivers, constraints, risks, needs, &#x26; requirements.</li>
+<li>Evaluate <strong>PESTEL</strong> factors: Political, Economic, Social, Technological, Environmental, &#x26; Legal.</li>
+<li>Utilize external/internal analysis or <strong>SWOT</strong> (Strengths, Weaknesses, Opportunities, Threats).</li>
+<li>Define mission-independent goals &#x26; objectives.</li>
+<li>Establish <strong>Critical Business Success Measures</strong>:
+<ul>
+<li>Validation criteria $\rightarrow$ critical/desired performance thresholds &#x26; objectives.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Solution Space Characterization</strong>:
+<ul>
+<li>Define preliminary life cycle concepts from business stakeholder perspective.</li>
+<li>Establish set of alternative solution classes spanning solution space.</li>
+</ul>
+</li>
+<li><strong>Alternative Evaluation &#x26; Selection</strong>:
+<ul>
+<li>Evaluate alternatives via modeling, simulation, &#x26; analytical analysis $\rightarrow$ determine feasibility &#x26; value.</li>
+<li>Select preferred solution class(es) validated against strategic concepts.</li>
+<li>Record decisions, supporting info, rationale, &#x26; traceability.</li>
+</ul>
+</li>
+<li><strong>Major Stakeholder Identification</strong>:
+<ul>
+<li>Nominate key stakeholders &#x26; establish stakeholder register.</li>
+<li>Authorize stakeholder budget &#x26; time for system development contribution.</li>
+</ul>
+</li>
+<li><strong>Business Needs &#x26; Requirements</strong>:
+<ul>
+<li>Address capabilities, functionality, performance, security, risk, &#x26; compliance.</li>
+<li>Communication forms: mission statements, goals, use cases, &#x26; user stories.</li>
+</ul>
+</li>
+<li><strong>Core Life Cycle Concepts</strong>:
+<ul>
+<li><strong>Concept of Operations (ConOps)</strong>: organization-level strategy achieving missions/goals.
+<ul>
+<li>Describes impacts on acquiring organizations &#x26; higher-level system context.</li>
+</ul>
+</li>
+<li><strong>Operational Concept (OpsCon)</strong>: user-oriented system perspective during operation.
+<ul>
+<li>Defines capabilities, performance, safety, security, &#x26; external system interactions.</li>
+</ul>
+</li>
+<li><strong>Acquisition Concept</strong>: describes procurement or internal production activities (design, production, V&#x26;V).</li>
+<li><strong>Deployment Concept</strong>: describes delivery, integration, &#x26; introduction into operational environment.</li>
+<li><strong>Support Concept</strong>: describes logistics, infrastructure, staffing, maintenance, &#x26; training.</li>
+<li><strong>Retirement Concept</strong>: describes removal, disposal (hazardous materials), legal obligations, &#x26; sustainability.</li>
+</ul>
+</li>
+<li><strong>Uncertainties &#x26; Risk</strong>:
+<ul>
+<li>Sources: stakeholder perspectives, market, technical performance, cost, &#x26; sustainability.</li>
+<li>Mitigation: utilize <strong>Risk Management</strong> process in conjunction w/ Technical Processes.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="stakeholder-needs-and-requirements-definition-process">Stakeholder Needs and Requirements Definition Process</h4>
+<ul>
+<li><img  src="/_astro/c02f040_1768877879396_0.cn2cJx9k_288SCn.webp" alt="c02f040.png" loading="lazy" decoding="async" fetchpriority="auto" width="1865" height="1119">{:height 314, :width 494}</li>
+<li><strong>Purpose</strong>: define stakeholder needs &#x26; requirements providing capabilities in defined environment</li>
+<li><strong>Process Focus</strong>: elaborate life cycle concepts -> transform to stakeholder needs -> transform to stakeholder requirements.
+<ul>
+<li>Driven by business needs, business requirements, &#x26; success measures from <strong>Business/Mission Analysis</strong>.</li>
+</ul>
+</li>
+<li><strong>Stakeholder Requirement Functions</strong>:
+<ul>
+<li>Govern <strong>SoI</strong> development.</li>
+<li>Define project scope &#x26; acceptance criteria.</li>
+<li>Provide basis for technical description in agreements (deliverables &#x26; interfaces).</li>
+</ul>
+</li>
+<li><strong>Process Preparation</strong>:
+<ul>
+<li>Identify stakeholders w/ legitimate interest &#x26; resolve conflicts.</li>
+<li>Establish strategy for stakeholder management &#x26; definition approach.</li>
+<li>Plan enabling systems/services (elicitation tools, analysis software, traceability databases).</li>
+</ul>
+</li>
+<li><strong>Life Cycle Concept Development</strong>:
+<ul>
+<li>Elaborate <strong>OpsCon</strong> &#x26; <strong>ConOps</strong> within preferred solution class context.</li>
+<li>Define operational scenarios &#x26; use cases -> identify required capabilities &#x26; behaviors.</li>
+<li>Characterize intended operational environment, user interactions, &#x26; external interface boundaries.</li>
+<li>Identify solution constraints &#x26; risks (misuse &#x26; loss scenarios).</li>
+</ul>
+</li>
+<li><strong>Stakeholder Needs Definition</strong>:
+<ul>
+<li>Identify needs reflecting concepts &#x26; constraints (quality, safety, security, environment).</li>
+<li>Prioritize/select essential needs via <strong>Decision Management</strong> &#x26; <strong>System Analysis</strong>.</li>
+<li>Record needs w/ sources &#x26; rationale.</li>
+<li>Transform concepts -> integrated set of agreed-to needs.</li>
+</ul>
+</li>
+<li><strong>Requirements Transformation</strong>:
+<ul>
+<li>Transform needs -> stakeholder requirements (technical/formal).</li>
+<li>Address safety, security, sustainability, &#x26; human systems integration.</li>
+<li>Ensure high quality characteristics: necessary, singular, correct, unambiguous, feasible, complete, &#x26; conforming.</li>
+</ul>
+</li>
+<li><strong>Needs &#x26; Requirements Analysis</strong>:
+<ul>
+<li>Define critical performance measures &#x26; quality characteristics -> enable technical monitoring.</li>
+<li>Establish system validation criteria, methods, &#x26; strategies.</li>
+<li>Review requirements w/ stakeholders -> resolve conflicts, inconsistencies, or impracticalities.</li>
+</ul>
+</li>
+<li><strong>Process Management</strong>:
+<ul>
+<li>Obtain explicit agreement on artifacts.</li>
+<li>Maintain traceability across life cycle concepts, needs, &#x26; requirements.</li>
+<li>Provide artifacts to <strong>Configuration Management (CM)</strong> for baselining.</li>
+</ul>
+</li>
+<li><strong>Stakeholder Identification Details</strong>:
+<ul>
+<li>Includes: customers, users, operators, maintainers, procurement, regulators, developers, &#x26; verifiers.</li>
+<li>Includes: external/enabling system stakeholders &#x26; future generations (represented by agents).</li>
+<li>Address detractors via <strong>Risk Management</strong>, threat analysis, &#x26; resilience requirements.</li>
+</ul>
+</li>
+<li><strong>Elicitation &#x26; Refinement</strong>:
+<ul>
+<li>Reconcile disparate/conflicting stakeholder views -> horizontal integration.</li>
+<li>Mitigate cognitive biases (role, education, culture) during elicitation.</li>
+<li>Define constraints, drivers (competition, threats), &#x26; risks.</li>
+</ul>
+</li>
+<li><strong>Life Cycle Concept Objectives</strong>:
+<ul>
+<li>Ensure clear understanding of needs &#x26; rationale.</li>
+<li>Establish holistic capability understanding (people, process, products).</li>
+<li>Form basis for design, system verification, &#x26; validation planning.</li>
+<li>Assess <strong>SoI</strong> interactions w/ external systems &#x26; intended environment.</li>
+</ul>
+</li>
+<li><strong>Uncertainties &#x26; Risk Sources</strong>:
+<ul>
+<li>Business &#x26; market factors.</li>
+<li>Technical performance &#x26; schedule.</li>
+<li>Development, production, operations, &#x26; support costs.</li>
+<li>Security &#x26; sustainability.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="system-requirements-definition-process">System Requirements Definition Process</h4>
+collapsed:: true
+<ul>
+<li><img  src="/_astro/c02f041_1768878241802_0.CX-fSWDT_ZuoXPU.webp" alt="c02f041.png" loading="lazy" decoding="async" fetchpriority="auto" width="1939" height="961"></li>
+<li><strong>Purpose</strong>: transform stakeholder/user-oriented view of desired capabilities -> technical view of solution meeting operational needs.</li>
+<li><strong>Description</strong>:
+<ul>
+<li>Foundational for Architecture, Design, Integration, &#x26; Verification.</li>
+<li>Aim for minimum necessary &#x26; sufficient requirement set to realize intent.</li>
+<li>Uncertainty managed until requirements mature; late changes impact cost/schedule.</li>
+</ul>
+</li>
+<li><strong>Process Dynamics</strong>:
+<ul>
+<li>Concurrent &#x26; iterative w/ <strong>Stakeholder Needs</strong> &#x26; <strong>System Architecture Definition</strong>.</li>
+<li>Recursive application down system hierarchy layers.</li>
+<li>Allocation occurs concurrently w/ architecture definition.</li>
+<li>Requirements must be traceable, consistent, &#x26; free of implementation bias.</li>
+</ul>
+</li>
+<li><strong>Preparation Activities</strong>:
+<ul>
+<li>Establish strategy &#x26; plan enabling systems (elicitation tools, risk databases, traceability software).</li>
+</ul>
+</li>
+<li><strong>Requirement Definition</strong>:
+<ul>
+<li>Define functional boundary (behavior &#x26; properties).</li>
+<li>Transform stakeholder requirements -> system functions &#x26; performance levels.</li>
+<li>Include primary &#x26; enabling functions.</li>
+<li>Define constraints: high-level requirements, operational conditions, &#x26; external interactions.</li>
+<li>Address risks, criticality, quality characteristics, &#x26; compliance.</li>
+<li>Define <strong>Verification Success Criteria</strong>: strategy, method, &#x26; responsible organization.</li>
+</ul>
+</li>
+<li><strong>Requirement Analysis</strong>:
+<ul>
+<li>Evaluate individual requirements &#x26; sets (increments/sprints).</li>
+<li>Ensure characteristics: correct, complete, consistent, comprehensible, appropriate to level, &#x26; feasible.</li>
+<li>Define critical performance measures -> technical achievement monitoring.</li>
+<li>Resolve inconsistencies &#x26; impracticalities via stakeholder negotiation.</li>
+</ul>
+</li>
+<li><strong>Process Management</strong>:
+<ul>
+<li>Confirm agreement &#x26; capture decisions/rationale/alternatives.</li>
+<li>Sustain traceability &#x26; manage changes.</li>
+<li>Provide artifacts to <strong>Configuration Management (CM)</strong> for baselining.</li>
+</ul>
+</li>
+<li><strong>Stakeholder vs. System Requirements</strong>:
+<ul>
+<li><strong>Stakeholder</strong>: user-oriented; focuses on high-priority/critical functions &#x26; quality.</li>
+<li><strong>System</strong>: technical perspective; includes detailed enabling functions &#x26; compliance for implementation.</li>
+</ul>
+</li>
+<li><strong>Supplier Obligations</strong>:
+<ul>
+<li>Assessment for derived requirements from “non-acquirer” stakeholders (production, test, safety, regulatory).</li>
+<li>Prevents system validation failure due to blind adherence to contract requirements.</li>
+</ul>
+</li>
+<li><strong>Transformation Complexity</strong>:
+<ul>
+<li>Involves function/performance analysis, trade studies, &#x26; risk/technology assessments.</li>
+<li>Balances “top-down” (allocation, derivation, flow-down) w/ “bottom-up” (compliance, flow-up).</li>
+<li>Requirements serve as “design-to” or “design input” requirements.</li>
+</ul>
+</li>
+<li>
+<h2 id="requirement-statement-characteristics"><strong>Requirement Statement Characteristics</strong>:</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th><strong>Requirement Statement Characteristic</strong></th><th><strong>Definition</strong></th></tr></thead><tbody><tr><td>Necessary</td><td>The requirement statement defines a capability, characteristic, constraint, or quality factor needed to satisfy a life cycle concept, need, source, or parent requirement.</td></tr><tr><td>Appropriate</td><td>The specific intent and amount of detail of the requirement statement is appropriate to the level (e.g., the level of abstraction, organization, or system architecture) of the entity to which it refers.</td></tr><tr><td>Unambiguous</td><td>The requirement statement is stated such that the intent is clear and the requirement can be interpreted in only one way by all the intended stakeholders.</td></tr><tr><td>Complete</td><td>The requirement statement sufficiently describes the necessary capability, characteristic, constraint, conditions, or quality factor to meet the need, source, or higher-level requirement from which it was transformed.</td></tr><tr><td>Singular</td><td>The requirement statement states a single capability, characteristic, constraint, or quality factor.</td></tr><tr><td>Feasible</td><td>The requirement statement can be realized within entity constraints (e.g., cost, schedule, technical, legal, ethical, safety) with acceptable risk.</td></tr><tr><td>Verifiable</td><td>The requirement statement is structured and worded such that its realization can be verified to the approving authority’s satisfaction.</td></tr><tr><td>Correct</td><td>The requirement statement is an accurate representation of the need, source, or higher-level requirement from which it was transformed.</td></tr><tr><td>Conforming</td><td>The requirement statement conforms to an approved standard pattern and style guide or standard for writing and managing requirements.</td></tr></tbody></table>
+</li>
+<li>
+<h2 id="requirement-set-characteristics"><strong>Requirement Set Characteristics</strong>:</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th><strong>Requirement Set Characteristic</strong></th><th><strong>Definition</strong></th></tr></thead><tbody><tr><td>Complete</td><td>The requirement set for a given SOI should stand alone such that it sufficiently describes the necessary capabilities, characteristics, functionality, performance, drivers, constraints, conditions, interactions, standards, regulations, and/or quality characteristics without requiring other sets of requirements at the appropriate level of abstraction.</td></tr><tr><td>Consistent</td><td>The requirement set contains individual requirements that are unique, do not conflict with or overlap with others in the set, and the units and measurement systems they use are homogeneous. The language used within the sets is consistent (i.e., the same words are used throughout the set to mean the same thing). All terms used within the requirement statements are consistent with the architectural model, project glossary, and project data dictionary.</td></tr><tr><td>Feasible</td><td>The requirement set can be realized within entity constraints (e.g., cost, schedule, technical) with acceptable risk.</td></tr><tr><td>Comprehensible</td><td>The requirement set is written such that it is clear as to what is expected of the entity and its relation to the macro system of which it is a part.</td></tr><tr><td>Able to be validated</td><td>The requirement set will lead to the achievement of the set of needs and higher-level requirements within the constraints (such as cost, schedule, technical, and regulatory compliance) with acceptable risk.</td></tr><tr><td>Correct</td><td>The requirement set is an accurate representation of the needs, sources, or higher-level requirements from which it was transformed.</td></tr></tbody></table>
+</li>
+<li><strong>Requirement Attributes (Table 2.9)</strong>:
+<ul>
+<li><strong>Core Attributes</strong>: Rationale, Trace to Parent/Source, Allocation/Budgeting, Success Criteria, Strategy, Method, Responsible Org, Unique ID, Author, Owner, Status (V&#x26;V), Priority, Criticality, &#x26; Risk.</li>
+</ul>
+</li>
+<li><strong>Allocation &#x26; Flow-down</strong>:
+<ul>
+<li>Allocate requirements to next-level system elements.</li>
+<li>Repeat recursively until elements reach make/buy/reuse level.</li>
+<li>Forms <strong>Allocated Baseline</strong> of the <strong>SoI</strong>.</li>
+</ul>
+</li>
+<li><strong>Requirements Management</strong>:
+<ul>
+<li>Record/maintain evolving requirements, context, &#x26; history</li>
+<li>Define, control, &#x26; publish baseline requirements for all <strong>SoI</strong> levels.</li>
+<li>Establish traceability &#x26; performance measures.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="system-architecture-definition-process">System Architecture Definition Process</h4>
+<ul>
+<li><img  src="/_astro/c02f042_1768878496692_0.YvJ5MoPY_1k22FD.webp" alt="c02f042.png" loading="lazy" decoding="async" fetchpriority="auto" width="1830" height="1099">{:height 403, :width 508}</li>
+<li><strong>System Architecture Definition Purpose</strong>: generate alternatives, select option addressing stakeholder concerns &#x26; system requirements, &#x26; express via consistent views &#x26; models</li>
+<li><strong>Process Transformations</strong>: converts strategic architectures, policies, life cycle concepts, &#x26; requirements $\rightarrow$ fundamental system concepts, properties, &#x26; governing principles.</li>
+<li><strong>Applicable Standards</strong>:
+<ul>
+<li><strong>ISO 15704</strong>: addresses stakeholder concerns &#x26; incremental change for enterprises.</li>
+<li><strong>ISO/IEC/IEEE 42000 Series</strong>: establishes architecture conceptualization, evaluation, &#x26; description processes.</li>
+</ul>
+</li>
+<li><strong>System Architecture Characteristics</strong>:
+<ul>
+<li>Defines high-level structure &#x26; intended properties.</li>
+<li>Balances suitability, viability, effectiveness, &#x26; affordability.</li>
+<li>Incorporates emergent properties &#x26; behaviors.</li>
+<li>Iterative &#x26; recursive across system levels.</li>
+</ul>
+</li>
+<li><strong>Preparation Activities</strong>:
+<ul>
+<li>Analyze market, industry, legal, &#x26; stakeholder perspectives.</li>
+<li>Define <strong>System Context</strong> &#x26; boundary w/ <strong>System Requirements Definition</strong>.</li>
+<li>Establish strategy: architecture roadmap, frameworks, patterns, &#x26; modeling techniques.</li>
+<li>Provision enabling items: registry, repository, library, &#x26; competencies.</li>
+<li>Select <strong>Architecture Viewpoints</strong> &#x26; model kinds.</li>
+</ul>
+</li>
+<li><strong>Architecture Conceptualization</strong>:
+<ul>
+<li>Characterize problem space &#x26; define success criteria.</li>
+<li>Synthesize potential solutions via technology scans &#x26; solution patterns.</li>
+<li>Identify strengths, weaknesses, gaps, &#x26; required trade-offs.</li>
+<li>Formulate candidate architectures:
+<ul>
+<li>Functions.</li>
+<li>Input/output flows.</li>
+<li>States &#x26; modes.</li>
+<li>Functional &#x26; physical interfaces.</li>
+<li>Nodes &#x26; links.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Architecture Evaluation</strong>:
+<ul>
+<li>Determine objectives based on mandates, value, &#x26; quality characteristics.</li>
+<li>Collect views, models, &#x26; metrics; qualify accuracy &#x26; uncertainty.</li>
+<li>Assess alternatives via <strong>System Analysis</strong> &#x26; <strong>Measurement</strong>.</li>
+<li>Eliminate alternatives failing mandates; select preferred architecture solution.</li>
+</ul>
+</li>
+<li><strong>Architecture Elaboration</strong>:
+<ul>
+<li>Develop models addressing stakeholder concerns &#x26; architecture frameworks.</li>
+<li>Define internal &#x26; external interfaces.</li>
+<li>Resolve inconsistencies using correspondence rules.</li>
+<li>Verify &#x26; validate models via execution, simulation, or prototypes.</li>
+<li>Compose views &#x26; models $\rightarrow$ <strong>Architecture Description</strong>.</li>
+</ul>
+</li>
+<li><img  src="/_astro/c02f043_1768878814517_0.DFbq8ICG_Zx7GWT.webp" alt="c02f043.png" loading="lazy" decoding="async" fetchpriority="auto" width="1412" height="786">{:height 308, :width 455}</li>
+<li><strong>Process Management</strong>:
+<ul>
+<li>Record rationale for alternatives &#x26; decisions.</li>
+<li>Govern architecture via roles, responsibilities, &#x26; authorities.</li>
+<li>Maintain bi-directional traceability: requirements $\leftrightarrow$ architectural entities.</li>
+<li>Monitor architecting effectiveness &#x26; resource allocation.</li>
+</ul>
+</li>
+<li><strong>Architecture vs. Design</strong>:
+<ul>
+<li><strong>Architecture</strong>: focuses on essential concepts, structure, &#x26; emergent behavior; design-agnostic for flexibility.</li>
+<li><strong>Design Definition</strong>: develops detail for realization; provides feedback for allocation alignment.</li>
+</ul>
+</li>
+<li><strong>Architecting Styles</strong>:
+<ul>
+<li>Authoritative.</li>
+<li>Directive.</li>
+<li>Coordinative.</li>
+<li>Supportive.</li>
+</ul>
+</li>
+<li><strong>Architecture Patterns</strong>: reusable, configurable entities; promote communication &#x26; streamline documentation.</li>
+<li><strong>Value-Based Approach</strong>: understands stakeholder value systems &#x26; boundaries $\rightarrow$ prevents value degradation.</li>
+<li><strong>Interfaces</strong>: fundamental functional aspects (inputs/outputs); standards ensure interoperability &#x26; reduce integration challenges.</li>
+<li><strong>System Architecture Integration</strong>:
+<ul>
+<li><strong>Horizontal</strong>: maintains operational &#x26; development interfaces.</li>
+<li><strong>Vertical</strong>: accounts for allocated requirements as design matures.</li>
+<li>Manages interdependencies between functional &#x26; physical elements.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="design-definition-process">Design Definition Process</h4>
+<ul>
+<li><img  src="/_astro/c02f044_1768878938973_0.CyY6JLqe_Z1UppxA.webp" alt="c02f044.png" loading="lazy" decoding="async" fetchpriority="auto" width="1592" height="941">{:height 317, :width 523}</li>
+<li><strong>Purpose</strong>: provide detailed data &#x26; information about system &#x26; elements -> realize solution per requirements &#x26; architecture</li>
+<li><strong>Description</strong>: transforms architecture &#x26; requirements -> design for implementation.
+<ul>
+<li>Defines properties &#x26; characteristics allocated to each system element.</li>
+<li>Ensures alignment w/ design guidelines &#x26; organizational standards.</li>
+</ul>
+</li>
+<li><strong>Preparation Activities</strong>:
+<ul>
+<li>Determine design drivers, strategy, &#x26; applicable approaches.</li>
+<li>Factors: personnel (human factors), processes, products, &#x26; services.</li>
+<li>Identify technologies &#x26; system characteristic categories (quality models).</li>
+<li>Examine architecture for governing principles &#x26; evolution.</li>
+<li>Provision enabling elements, services, &#x26; resources.</li>
+</ul>
+</li>
+<li><strong>Design Creation</strong>:
+<ul>
+<li>Assess alternatives: adapt existing, compose from available, or create new.</li>
+<li>Allocate system requirements -> system elements.</li>
+<li>Transform architectural entities &#x26; relationships -> design elements.</li>
+<li>Transform architectural characteristics -> design characteristics (functionality, behavior, materials, data structures).</li>
+<li>Synthesis techniques: brainstorming, analogical thinking, &#x26; morphological charts.</li>
+<li>Analysis techniques: parametric design &#x26; trade-off analysis.</li>
+<li>Refine interfaces between system elements &#x26; external entities.</li>
+<li><strong>System Design Description</strong>: captures composition, properties, &#x26; characteristics -> forms specification for procurement/realization.</li>
+</ul>
+</li>
+<li><strong>Design Evaluation</strong>:
+<ul>
+<li>Determine suitability &#x26; “goodness” vs needs, requirements, &#x26; constraints.</li>
+<li>Ensure consistency w/ architecture description.</li>
+<li>Assess stakeholder value &#x26; potential negative consequences.</li>
+<li>Select preferred design -> provide feedback to <strong>Architecture Definition</strong> &#x26; <strong>Verification</strong> processes.</li>
+</ul>
+</li>
+<li><strong>Process Management</strong>:
+<ul>
+<li>Maintain bidirectional traceability: requirements/constraints &#x3C;-> design characteristics/architecture entities.</li>
+<li>Record rationale for alternatives &#x26; decisions.</li>
+<li>Manage configuration &#x26; changes.</li>
+<li><strong>Certification</strong>: qualify design vs quality standards (critical systems).</li>
+<li><strong>Registration</strong>: protect intellectual property (IP).</li>
+<li><strong>System Design Authority</strong>: maintains design integrity during development &#x26; evolution.</li>
+<li>Conduct design reviews -> evaluate progress, suitability, &#x26; quality.</li>
+</ul>
+</li>
+<li><strong>Design vs. Architecture</strong>:
+<ul>
+<li><strong>Architecture</strong>: essential concepts, structure, &#x26; behaviors; design-agnostic.</li>
+<li><strong>Design</strong>: detail for realization; includes materials, coding, &#x26; manufacture.</li>
+</ul>
+</li>
+<li><strong>Design Thinking</strong>: focuses on reasoning, concept development, &#x26; realization -> complements <strong>Systems Thinking</strong>.</li>
+<li><strong>Design Drivers</strong>: factors heavily influencing design (market, human factors, safety, security).
+<ul>
+<li>Functional requirements often dominate.</li>
+<li>Non-functional attributes (safety, security, performance) dominate critical systems (e.g., propulsion).</li>
+</ul>
+</li>
+<li><strong>Design For X (DFX)</strong>: addresses specific drivers like Testability (<strong>DFT</strong>) or Manufacturability (<strong>DFM</strong>).</li>
+<li><strong>Design Assurance</strong>:
+<ul>
+<li>Stringent practices for high integrity/dependability.</li>
+<li><strong>Certification</strong>: ensures compliance w/ airworthiness, nuclear, or safety regulations.</li>
+</ul>
+</li>
+<li><strong>Design Descriptors</strong>: set of characteristics + possible values.
+<ul>
+<li>Determined via top-down apportionment &#x26; bottom-up selection.</li>
+<li><strong>SE-specific Examples</strong>: Quality of service, modularity, openness, autonomy.</li>
+<li><strong>Hardware Examples</strong>: Mass, power, volume, thermal.</li>
+<li><strong>Software Examples</strong>: Correctness, efficiency, maintainability.</li>
+<li><strong>Data/Information Examples</strong>: Accuracy, relevance, timeliness.</li>
+</ul>
+</li>
+<li><strong>Validation &#x26; Integrity</strong>:
+<ul>
+<li>Modeling, simulation, &#x26; prototyping (AR/VR) discover early problems.</li>
+<li>Integrity ensures completeness, consistency, &#x26; quality characteristics.</li>
+</ul>
+</li>
+<li><strong>Design Evolution</strong>:
+<ul>
+<li><strong>Maturity stages</strong>: Conceptual -> Preliminary (embodiment) -> Detailed.</li>
+<li>Drivers for change: new technology, obsolescence, performance, or threats.</li>
+<li><strong>SoS Environment</strong>: requires continuous evolution, robustness, &#x26; resilience.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="system-analysis-process">System Analysis Process</h4>
+<ul>
+<li>Taxonomy of system analysis dimensions
+<ul>
+<li><img  src="/_astro/c02f045_1768879204967_0.Comah4gL_10SvLM.webp" alt="c02f045.png" loading="lazy" decoding="async" fetchpriority="auto" width="1504" height="1002">{:height 340, :width 499}</li>
+</ul>
+</li>
+<li><img  src="/_astro/c02f046_1768879213444_0.DuuQzFW__1IWAN0.webp" alt="c02f046.png" loading="lazy" decoding="async" fetchpriority="auto" width="1898" height="712">{:height 201, :width 557}</li>
+<li><strong>System Analysis Purpose</strong>: provide rigorous data/info for technical understanding -> aid decision-making &#x26; technical assessments</li>
+<li><strong>Analysis Definition</strong>: detailed examination determining nature, structure, or essential features
+<ul>
+<li>Utilizes models &#x26; simulations -> assess utility &#x26; integrity of system requirements, architecture, &#x26; design.</li>
+</ul>
+</li>
+<li><strong>Model Categories</strong>: incomplete representations answering four question types:
+<ul>
+<li><strong>Descriptive</strong>: what has happened?</li>
+<li><strong>Predictive</strong>: what could happen?</li>
+<li><strong>Prescriptive</strong>: what should we do?</li>
+<li><strong>Definitive</strong>: how should an entity be defined?</li>
+</ul>
+</li>
+<li><strong>System Variables</strong>: quantitative (numerical) &#x26; qualitative (categorical) attributes.
+<ul>
+<li>Establishing relationships -> represents emergent features.</li>
+<li>Addresses complexity, uncertainty, dynamic behavior, &#x26; feedback loops.</li>
+</ul>
+</li>
+<li><strong>Modeling Approaches</strong>:
+<ul>
+<li><strong>MBSE</strong>: functional, structural, &#x26; behavioral modeling</li>
+<li><strong>Mathematical analysis</strong>.</li>
+<li><strong>Probabilistic &#x26; statistical modeling</strong>.</li>
+<li><strong>Simulation</strong>.</li>
+<li><strong>Sensitivity analysis</strong>: evaluates allowable variable range across life cycle stages.</li>
+</ul>
+</li>
+<li><strong>Preparation Activities</strong>:
+<ul>
+<li>Establish strategy &#x26; identify situation (problem, opportunity, or decision).</li>
+<li>Define scope, objectives, &#x26; fidelity level.</li>
+<li>Choose methods based on time, cost, fidelity, &#x26; criticality.</li>
+<li>Plan enabling systems &#x26; validate assumptions.</li>
+<li>Collect trustworthy data &#x26; establish criteria for data quality/validity.</li>
+</ul>
+</li>
+<li><strong>Analysis Execution</strong>:
+<ul>
+<li>Perform required analysis, uncertainty analysis, &#x26; sensitivity analysis.</li>
+<li>Verify results for quality &#x26; validity.</li>
+<li>Interpret results -> develop conclusions &#x26; recommendations.</li>
+<li>Capture results in <strong>System Analysis Report</strong>.</li>
+</ul>
+</li>
+<li><strong>Analysis Management</strong>:
+<ul>
+<li>Sustain traceability of results.</li>
+<li>Provide information items/work products to <strong>Configuration Management (CM)</strong> for baselining.</li>
+</ul>
+</li>
+<li><strong>Common Tips</strong>:
+<ul>
+<li>Ensure parameters/data inputs match model operation field.</li>
+<li>Evolve models via parameter modifications &#x26; new tools.</li>
+<li>Use multiple concurrent model types -> compare results across properties.</li>
+<li>Contextualize results w/ tools used, assumptions, parameters, data, &#x26; output variance.</li>
+</ul>
+</li>
+<li><strong>Process Relationships</strong>:
+<ul>
+<li><strong>Business/Mission Analysis (BMA)</strong>: estimates <strong>OpsCon</strong>/business model effectiveness, feasibility, cost, &#x26; value.</li>
+<li><strong>SNRD &#x26; SRD</strong>: resolves requirement conflicts regarding functionality, feasibility, &#x26; performance.</li>
+<li><strong>Arch/Design</strong>: evaluates design space for dependability, affordability, maintenance, &#x26; human-system interface.</li>
+<li><strong>Verification &#x26; Validation (V&#x26;V)</strong>: quantifies cost, schedule, &#x26; information value for V&#x26;V methods (inspection, analysis, demo, test).</li>
+<li><strong>Planning &#x26; Control</strong>: provides estimates &#x26; uncertainty ranges for technical measures (<strong>MOE, MOP, TPM</strong>).</li>
+</ul>
+</li>
+<li><strong>Decision Management Integration</strong>: analysis provides data for selecting alternatives based on value, risk, &#x26; time preferences.</li>
+<li><strong>Cost Analysis</strong>: evaluates <strong>Life Cycle Costs (LCC)</strong>.
+<ul>
+<li>Includes labor/non-labor items: development, manufacturing, sales, utilization, maintenance, &#x26; disposal.</li>
+</ul>
+</li>
+<li><strong>Technical Risk Analysis</strong>: quantifies probability &#x26; impact of operational system risks.</li>
+<li><strong>Effectiveness Analysis</strong>: assesses degree system meets criteria (<strong>TPM, MOP, MOE</strong>) in intended environment.
+<ul>
+<li>Evaluates probability of meeting success thresholds.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="implementation-process">Implementation Process</h4>
+<ul>
+<li><img  src="/_astro/c02f047_1768879362717_0.S1NoJ2M3_Z2rpCq1.webp" alt="c02f047.png" loading="lazy" decoding="async" fetchpriority="auto" width="1697" height="665">{:height 235, :width 592}</li>
+<li><strong>Purpose</strong>: realize a specified system element</li>
+<li><strong>Description</strong>: creates system element per its description (requirements, architecture, design, interfaces).
+<ul>
+<li>Occurs across life cycle stages (e.g., defining/upgrading supporting infrastructure).</li>
+<li>Verifies system element requirements &#x26; validates stakeholder requirements.</li>
+<li>Corrects discrepancies via iterative/recursive interaction w/ preceding processes.</li>
+</ul>
+</li>
+<li><strong>Preparation Activities</strong>:
+<ul>
+<li>Define procedures (fabrication/coding), tools, tolerances, &#x26; configuration audit criteria.</li>
+<li>Elicit constraints from stakeholders/developers regarding technology &#x26; strategy.</li>
+<li>Document resource acquisition plan &#x26; identify enabling system interfaces.</li>
+<li>Ensure access to enabling services, resources, &#x26; materials.</li>
+<li>Schedule process &#x26; identify critical path elements.</li>
+</ul>
+</li>
+<li><strong>Implementation Execution</strong>:
+<ul>
+<li>Realize elements per product, process, &#x26; material specifications.</li>
+<li><strong>Compliance Evidence</strong>:
+<ul>
+<li>Complete specifications &#x26; system configurations.</li>
+<li>Conduct peer reviews, inspections, &#x26; functional testing.</li>
+<li>Conduct conformation audits vs. drawings/design artifacts before integration.</li>
+</ul>
+</li>
+<li>Prepare training capability &#x26; draft documentation (operation, failure detection, maintenance).</li>
+<li>Create hazardous materials log (if applicable).</li>
+</ul>
+</li>
+<li><strong>Process Management</strong>:
+<ul>
+<li>Record results &#x26; provide baseline info to <strong>Configuration Management (CM)</strong>.</li>
+<li>Resolve anomalies (corrective actions/improvements) via <strong>Quality Assurance</strong>.</li>
+<li>Sustain traceability with architecture, design, &#x26; requirements.</li>
+</ul>
+</li>
+<li><strong>Common Tips</strong>:
+<ul>
+<li>Engage <strong>Integrated Product Development Teams (IPDT)</strong> for configuration/redesign issues.</li>
+<li>Use proactive inspections to build quality</li>
+<li>Perform conformation audits &#x26; software configuration verification before <strong>Transition</strong>.</li>
+<li>Identify enabling systems/materials early to manage lead times.</li>
+</ul>
+</li>
+<li><strong>System Element Forms</strong>:
+<ul>
+<li><strong>Hardware</strong>: fabricated or adapted physical elements.</li>
+<li><strong>Software</strong>: code &#x26; executable images.</li>
+<li><strong>Operational Resources</strong>: procedures &#x26; training.</li>
+<li><strong>Services</strong>: specified outcomes from hardware, software, or operational elements.</li>
+</ul>
+</li>
+<li><strong>Implementation Methods</strong>:
+<ul>
+<li><strong>Creation</strong>: fabrication or development.</li>
+<li><strong>Adaptation</strong>: modifies reused or acquired elements (<strong>COTS</strong>) via configuration settings (switches, tables).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="integration-process">Integration Process</h4>
+<ul>
+<li><img  src="/_astro/c02f048_1768879463991_0.CgpO1CF__Z1TxA3x.webp" alt="c02f048.png" loading="lazy" decoding="async" fetchpriority="auto" width="1888" height="762">{:height 241, :width 545}</li>
+<li><strong>Purpose</strong>: synthesize system elements -> realized system satisfying requirements</li>
+<li><strong>Process Focus</strong>: combine hardware, software, &#x26; operational resources.
+<ul>
+<li>Verify static &#x26; dynamic interface correctness.</li>
+<li>Execute proactive activities: modeling, analysis, simulation, prototyping, &#x26; early testing.</li>
+</ul>
+</li>
+<li><strong>System Definition Interaction</strong>: early coordination w/ Requirements, Architecture, &#x26; Design Definition -> prevents realization issues.</li>
+<li><strong>V&#x26;V Relationship</strong>:
+<ul>
+<li>Iterates w/ <strong>Verification &#x26; Validation</strong> processes.</li>
+<li><strong>Verification</strong>: checks requirements, architecture, &#x26; design implementation.</li>
+<li><strong>Validation</strong>: checks elements meet stakeholder requirements &#x26; intended function.</li>
+<li><strong>Boundary Checks</strong>: verify physical, logical, &#x26; human-system interfaces (functional, sensory, cognitive).</li>
+</ul>
+</li>
+<li><strong>Preparation Activities</strong>:
+<ul>
+<li>Establish checkpoints for progressive aggregation.</li>
+<li>Define strategy/approach: risk mitigation &#x26; aggregation sequences.</li>
+<li>Identify constraints: accessibility, integrator safety, &#x26; enabler interfaces.</li>
+<li>Plan/ensure enabling systems: facilities, training systems, &#x26; simulators.</li>
+</ul>
+</li>
+<li><strong>Integration Execution</strong>:
+<ul>
+<li>Aggregate system element configurations per planned sequence.</li>
+<li>Track interface availability &#x26; conformance to requirements.</li>
+<li>Verify interfaces, functions, &#x26; critical quality characteristics at multiple levels.</li>
+</ul>
+</li>
+<li><strong>Process Management</strong>:
+<ul>
+<li>Capture results &#x26; anomalies (execution errors or definition inconsistencies).</li>
+<li>Identify root causes via <strong>Project Assessment &#x26; Control</strong> -> direct corrective actions.</li>
+<li>Maintain bidirectional traceability &#x26; provide artifacts to <strong>Configuration Management (CM)</strong>.</li>
+</ul>
+</li>
+<li><strong>Implementation Aggregate</strong>: collection of system elements &#x26; interfaces.
+<ul>
+<li><strong>Verification Configuration</strong>: includes aggregate + enabling systems (simulators, emulators, stubs, scaffolding, activators).</li>
+</ul>
+</li>
+<li><strong>Integration Techniques</strong>:
+<ul>
+<li><strong>Global (Big Bang)</strong>: integrates entire <strong>SoI</strong>; for low-risk or simple systems.</li>
+<li><strong>Bottom-up</strong>: follows reverse decomposition; isolates faults easily.</li>
+<li><strong>Top-down</strong>: integrates system-level/performance-critical elements first using simulators.</li>
+<li><strong>Incremental</strong>: adds small number of elements to existing integrated increments.</li>
+<li><strong>Subset</strong>: assembles functional chains or threads before final assembly.</li>
+<li><strong>Criterion-driven</strong>: prioritizes critical elements (dependability, complexity, innovation).</li>
+<li><strong>With the stream</strong>: assembles elements as they become available.</li>
+<li><strong>Model-based</strong>: integrates within model environment; inserts physical elements as developed.</li>
+</ul>
+</li>
+<li><strong>Risk Mitigation Management</strong>: use <strong>Integrated Product Teams (IPTs)</strong>, <strong>Interface Control Working Groups (ICWGs)</strong>, <strong>SE Integration Teams (SEITs)</strong>, &#x26; <strong>Technical Performance Measures (TPMs)</strong>.</li>
+<li><strong>Hierarchical Integration</strong>:
+<ul>
+<li><strong>Horizontal</strong>: spans common hierarchy levels (structural &#x26; behavioral aspects).</li>
+<li><strong>Vertical</strong>: ensures element consistency across hierarchy levels.</li>
+<li><strong>Recursive Nature</strong>: shares new info/learning between higher &#x26; lower levels.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="verification-process">Verification Process</h4>
+<ul>
+<li><img  src="/_astro/c02f049_1768879583398_0.C-GfJv23_Z1QqvUm.webp" alt="c02f049.png" loading="lazy" decoding="async" fetchpriority="auto" width="1819" height="857">{:height 270, :width 530}</li>
+<li><strong>Purpose</strong>: provide objective evidence that a system, system element, or artifact fulfills specified requirements &#x26; characteristics</li>
+<li><strong>Description</strong>: confirms artifact/entity is “made right.”
+<ul>
+<li>No anomalies (errors/defects/faults) introduced during transformation.</li>
+<li>Verification strategy/method yields evidence for detection of potential anomalies.</li>
+<li>Confirms fulfillment w/ acceptable degree of confidence.</li>
+</ul>
+</li>
+<li><strong>Preparation Activities</strong>:
+<ul>
+<li>Define scope (stakeholder needs, requirements, models, design, system elements, integrated <strong>SoI</strong>).</li>
+<li>Identify specified requirements for each entity.</li>
+<li>Capture constraints: contractual, regulatory, cost, schedule, safety, &#x26; physical laws.</li>
+<li>Select verification methods (inspection, analysis, demonstration, test) &#x26; success criteria.</li>
+<li>Establish strategy: trade-offs between scope &#x26; constraints.</li>
+<li>Plan/ensure enabling systems: equipment, simulators, emulators, test beds, &#x26; facilities.</li>
+</ul>
+</li>
+<li><strong>Verification Performance</strong>:
+<ul>
+<li>Define procedures (individual or sets of actions).</li>
+<li>Schedule procedures as project milestones.</li>
+<li>Ensure readiness: availability of system/entity, enablers, &#x26; qualified personnel.</li>
+<li>Execute verification procedures.</li>
+</ul>
+</li>
+<li><strong>Process Management</strong>:
+<ul>
+<li>Record results &#x26; defects in reports/records.</li>
+<li>Analyze results vs success criteria -> determine conformance.</li>
+<li>Capture &#x26; track operational incidents via <strong>Project Assessment &#x26; Control</strong> &#x26; <strong>CM</strong>.</li>
+<li>Obtain agreement from approval authority on passing criteria.</li>
+<li>Maintain bidirectional traceability between verified entity &#x26; requirements/design characteristics.</li>
+<li>Provide artifacts to <strong>Configuration Management (CM)</strong> for baselining.</li>
+</ul>
+</li>
+<li><strong>Verification Planning</strong>: should begin concurrently w/ system requirements definition.
+<ul>
+<li>Early strategy approval by acquirer maximizes resourcing chances.</li>
+</ul>
+</li>
+<li><strong>Risk-Based Reduction</strong>: if activities must be reduced, use risk-based assessment rather than blind budget cuts.</li>
+<li><strong>Verification Action Components</strong>:
+<ul>
+<li>Submitted entity.</li>
+<li>Reference item (requirement/standard).</li>
+<li>Expected result (success criteria).</li>
+<li>Strategy &#x26; method.</li>
+<li>Integration level.</li>
+</ul>
+</li>
+<li><strong>Common Verification Actions</strong>:
+<ul>
+<li><strong>Requirement Verification</strong>: checks transformation correctness &#x26; statement quality.</li>
+<li><strong>Model/Simulation Verification</strong>: checks vs requirements, syntax rules, &#x26; heuristics.</li>
+<li><strong>Architecture Verification</strong>: ensures design will pass system verification &#x26; follows definition techniques.</li>
+<li><strong>Design Verification</strong>: confirms design characteristics meet system requirements &#x26; trade rules.</li>
+<li><strong>System Verification</strong>: confirms realized system/element meets system requirements &#x26; design characteristics.</li>
+</ul>
+</li>
+<li>Verification per level
+<ul>
+<li><img  src="/_astro/c02f050_1768879710626_0.BtezOhZK_Z20RHXs.webp" alt="c02f050.png" loading="lazy" decoding="async" fetchpriority="auto" width="1950" height="1246">{:height 349, :width 472}</li>
+</ul>
+</li>
+<li><strong>Verification Methods</strong>:
+<ul>
+<li><strong>Inspection</strong>: visual/sensory examination (color, weight).</li>
+<li><strong>Analysis</strong>: analytical data or simulations (modeling, similarity).
+<ul>
+<li><strong>Similarity</strong>: transfer status from similar design/manufacture/environment.</li>
+</ul>
+</li>
+<li><strong>Demonstration</strong>: qualitative functional performance w/ minimal equipment (supplier-selected stimuli).</li>
+<li><strong>Test</strong>: quantitative verification under controlled real/simulated conditions using instrumentation.</li>
+</ul>
+</li>
+<li><strong>Verification per Level</strong>: executed recursively at each hierarchical layer during integration.
+<ul>
+<li>Elements must pass verification before integration into next higher level.</li>
+</ul>
+</li>
+<li><strong>Early Verification (MBSE)</strong>: reduces discovery of anomalies during final integration/testing.
+<ul>
+<li><strong>Caution</strong>: do not substitute realized system verification w/ models unless necessary; actual system validation remains definitive.</li>
+</ul>
+</li>
+<li><strong>Program Management</strong>: monitor status, anomalies, &#x26; noncompliances -> manage budget, schedule, &#x26; risk.</li>
+</ul>
+</li>
+<li>
+<h4 id="transition-process">Transition Process</h4>
+<ul>
+<li><img  src="/_astro/c02f051_1768879738906_0.BI7mm18E_ZMis5T.webp" alt="c02f051.png" loading="lazy" decoding="async" fetchpriority="auto" width="1852" height="739">{:height 208, :width 500}</li>
+<li><strong>Purpose</strong>: establish capability for system to provide specified services in operational environment</li>
+<li><strong>Description</strong>: installs <strong>SoI</strong> into operational &#x26; maintenance environment.
+<ul>
+<li>Integrates <strong>SoI</strong> into organization systems, business processes, &#x26; capabilities.</li>
+<li>Coordinates w/ V&#x26;V, operation, maintenance, &#x26; disposal activities.</li>
+<li>Identifies requirement/design gaps &#x26; drives changes/augmentations.</li>
+</ul>
+</li>
+<li><strong>Preparation Activities</strong>:
+<ul>
+<li>Analyze intended environment: physical sites, IT infrastructure, organizational structure, &#x26; processes.</li>
+<li>Identify environmental changes to accommodate system.</li>
+<li>Obtain enabling systems, controls, products, or services.</li>
+<li>Coordinate <strong>SoI</strong> development w/ environment modifications.</li>
+<li>Define transition team structure, budget, &#x26; schedule.</li>
+<li>Establish mitigation strategies: downtime risk, roll-back procedures, &#x26; “point-of-no-return.”</li>
+<li>Develop deployment, service activation, &#x26; site validation procedures.</li>
+<li>Staff &#x26; train collaborative transition teams.</li>
+</ul>
+</li>
+<li><strong>Transition Performance</strong>:
+<ul>
+<li>Deploy system to operation, support, &#x26; maintenance sites.</li>
+<li>Utilize integration &#x26; verification processes for local configurations.</li>
+<li>Establish capabilities for adaptation, integration w/ other systems, performance monitoring, &#x26; problem correction.</li>
+<li>Train personnel &#x26; hand off operator/maintenance/support manuals.</li>
+<li>Provide as-built information to <strong>Configuration Management (CM)</strong>.</li>
+<li>Activate/commission services &#x26; ensure expected performance.</li>
+<li>Verify installation resolution of all issues/action items.</li>
+<li>Facilitate contractual acceptance &#x26; transfer of control/ownership/custody.</li>
+</ul>
+</li>
+<li><strong>Process Management</strong>:
+<ul>
+<li>Capture incidents, problems, &#x26; anomalies; investigate &#x26; perform corrective actions.</li>
+<li>Utilize <strong>Quality Assurance</strong> for problem resolution.</li>
+<li>Incorporate experience -> improve future transition instances.</li>
+<li>Maintain bidirectional traceability between transitioned elements &#x26; requirements/architecture.</li>
+</ul>
+</li>
+<li><strong>Transition Concepts</strong>:
+<ul>
+<li>Applies to <strong>SoI</strong> going into service &#x26; system elements being integrated into larger elements.</li>
+<li>Transfers system from development (“system-in-the-lab”) to utilization (“system-in-the-field”).</li>
+</ul>
+</li>
+<li><strong>Contextual Considerations</strong>:
+<ul>
+<li><strong>Greenfield (Clean Sheet)</strong>: transition into newly created organizations/systems.</li>
+<li><strong>Brownfield (Legacy)</strong>: transition into existing environments; requires effort to manage disruption</li>
+</ul>
+</li>
+<li><strong>Provisional Operation (Burn-in)</strong>: detection of failures &#x26; reliability improvement via operation in real/simulated environments.
+<ul>
+<li>Often exceeds expected environmental ranges (heat, vibration, power).</li>
+<li>Concurrent w/ <strong>Operation</strong> process.</li>
+</ul>
+</li>
+<li><strong>Warranty Period</strong>: may delay maintenance responsibility transfer; concurrent w/ <strong>Maintenance</strong> process.</li>
+</ul>
+</li>
+<li>
+<h4 id="validation-process">Validation Process</h4>
+<ul>
+<li><img  src="/_astro/c02f052_1768879886664_0._oLJ4OPU_ZH8uun.webp" alt="c02f052.png" loading="lazy" decoding="async" fetchpriority="auto" width="1854" height="836">{:height 279, :width 483}</li>
+<li><strong>Validation Purpose</strong>: provide objective evidence system fulfills business/mission objectives &#x26; stakeholder needs in intended environment</li>
+<li><strong>Process Scope</strong>: applies to engineering artifacts, entities, &#x26; info (needs, requirements, models, architecture, design, &#x26; realized <strong>SoI</strong>).</li>
+<li><strong>Confirmation Goals</strong>:
+<ul>
+<li>Build “right” artifact per stakeholder needs.</li>
+<li>Realize <strong>SoI</strong> for intended use in operational environment by intended users.</li>
+<li>Prevent negative impact from unintended users or usage.</li>
+</ul>
+</li>
+<li><strong>Validation vs Verification</strong>:
+<ul>
+<li><strong>Validation</strong>: ensures “right system built.”</li>
+<li><strong>Verification</strong>: ensures “system built right.”</li>
+</ul>
+</li>
+<li><strong>Preparation Activities</strong>:
+<ul>
+<li>Define scope &#x26; validation actions (strategy, method, success criteria).</li>
+<li>Identify stakeholder needs &#x26; requirements for validation comparison.</li>
+<li>Capture constraints: contractual, regulatory, fiscal, schedule, physical laws, &#x26; accessibility.</li>
+<li>Select methods: inspection, analysis, demonstration, or test.</li>
+<li>Define success criteria -> result in objective evidence of fulfillment.</li>
+<li>Establish strategy w/ stakeholder &#x26; approval authority agreement.</li>
+<li>Plan/ensure enabling systems: simulators, emulators, test beds, &#x26; facilities.</li>
+</ul>
+</li>
+<li><strong>Validation Execution</strong>:
+<ul>
+<li>Define procedures &#x26; schedule events as project commitments.</li>
+<li>Perform integrated <strong>SoI</strong> validation in actual operational environment w/ intended users or surrogates.</li>
+<li>Verify readiness: configuration status, enabler availability, &#x26; qualified personnel.</li>
+</ul>
+</li>
+<li><strong>Results Management</strong>:
+<ul>
+<li>Record results &#x26; defects in validation reports.</li>
+<li>Analyze vs success criteria -> determine conformance confidence.</li>
+<li>Track operational incidents via <strong>Project Assessment &#x26; Control</strong> &#x26; <strong>Configuration Management</strong>.</li>
+<li>Resolve definition changes via other Technical Processes.</li>
+<li>Obtain authorized approval authority agreement for acceptance.</li>
+<li>Maintain bidirectional traceability (entity &#x3C;-> artifacts &#x3C;-> needs/requirements).</li>
+<li>Provide baseline candidates to <strong>Configuration Management</strong>.</li>
+</ul>
+</li>
+<li><strong>Planning &#x26; Strategy</strong>:
+<ul>
+<li>Initiate planning during stakeholder needs &#x26; requirements definition.</li>
+<li>Maximize resourcing potential via early cost/schedule estimates.</li>
+<li>Involve broad range of stakeholders (end users, operators).</li>
+<li>revealing effects on enabling, interfacing, &#x26; interoperating systems.</li>
+</ul>
+</li>
+<li><strong>Scenario Testing</strong>:
+<ul>
+<li>Utilize scenarios &#x26; use cases for nominal, off-nominal, alternate, misuse, &#x26; loss cases.</li>
+<li>Principle: “test as you fly, fly as you test.”</li>
+</ul>
+</li>
+<li><strong>Risk-Based Approach</strong>:
+<ul>
+<li>Avoid blind reduction of validation activities due to budget/schedule.</li>
+<li>Gaps at final acceptance/regulatory submission -> high cost/time rework.</li>
+</ul>
+</li>
+<li>Validation per level
+<ul>
+<li><img  src="/_astro/c02f053_1768880007611_0.BjHFtYjO_ZbwEDK.webp" alt="c02f053.png" loading="lazy" decoding="async" fetchpriority="auto" width="1950" height="1246">{:height 349, :width 490}</li>
+</ul>
+</li>
+<li><strong>Specific Validation Actions</strong>:
+<ul>
+<li><strong>Requirement Validation</strong>: ensures right requirement accurately communicates need in stakeholder language.</li>
+<li><strong>Model/Simulation Validation</strong>: confirms accurate reflection of intended behavior &#x26; purpose.</li>
+<li><strong>Architecture/Design Validation</strong>: confirms design characteristics result in <strong>SoI</strong> meeting needs.</li>
+<li><strong>SoI Validation</strong>: confirms purpose fulfillment &#x26; security vs unintended users w/ acceptable confidence.</li>
+</ul>
+</li>
+<li><strong>Validation Outcomes</strong>:
+<ul>
+<li><strong>Acceptance</strong>: acquirer decision prior to transition.</li>
+<li><strong>Certification</strong>: written assurance vs legal/industrial standards (e.g., CE, UL).</li>
+<li><strong>Readiness for Use</strong>: assessment at first article, production completion, or post-maintenance.</li>
+<li><strong>Qualification</strong>: demonstration that realized system properties &#x26; margins meet all requirements.</li>
+</ul>
+</li>
+<li><strong>Hierarchy &#x26; Levels</strong>:
+<ul>
+<li>Recursive execution across hierarchical architecture layers.</li>
+<li>Elements pass validation before integration into next higher level.</li>
+</ul>
+</li>
+<li><strong>Early Validation (MBSE)</strong>:
+<ul>
+<li>Provides early feedback &#x26; expectation management.</li>
+<li>Reduces rework risk prior to physical realization.</li>
+<li><em>Constraint</em>: physical realm assessment remains definitive due to emergent properties &#x26; interaction complexity.</li>
+</ul>
+</li>
+<li><strong>Program Monitoring</strong>: track status, anomalies, &#x26; noncompliances -> manage budget, schedule, &#x26; risk.</li>
+</ul>
+</li>
+<li>
+<h4 id="operation-process">Operation Process</h4>
+<ul>
+<li><img  src="/_astro/c02f054_1768880033720_0.DXR_N2aK_Z1YT85P.webp" alt="c02f054.png" loading="lazy" decoding="async" fetchpriority="auto" width="1854" height="733">{:height 222, :width 495}</li>
+<li><strong>Purpose</strong>: use system -> deliver services.</li>
+<li><strong>Description</strong>: delivers services for benefit of operating organization.
+<ul>
+<li>Concurrent w/ <strong>Maintenance Process</strong>.</li>
+<li><strong>SoI</strong> functions as integral part of organization.</li>
+<li>Contributes to <strong>Business or Mission Analysis Process</strong>.</li>
+<li>Identifies requirements &#x26; design gaps -> drives changes/augmentations.</li>
+</ul>
+</li>
+<li><strong>Preparation Activities</strong>:
+<ul>
+<li>Influence <strong>Concept of Operations (ConOps)</strong> &#x26; <strong>Operational Concept (OpsCon)</strong>.</li>
+<li>Identify regulations, legal requirements, &#x26; environmental/ethical constraints.</li>
+<li>Define business rules for sustaining/enhancing services.</li>
+<li>Plan operational capability build-up:
+<ul>
+<li>Confirm site deployment schedules.</li>
+<li>Personnel availability &#x26; training.</li>
+<li>Logistic support availability.</li>
+</ul>
+</li>
+<li>Obtain enabling systems, controls, products, or services.</li>
+<li>Verify <strong>SoI</strong> info products (documentation, manuals, procedures).</li>
+<li>Review transition, validation, &#x26; maintenance strategies for <strong>OpsCon</strong> compatibility.</li>
+</ul>
+</li>
+<li><strong>Operational Performance</strong>:
+<ul>
+<li>Confirm transition completion at operational sites.</li>
+<li>Prepare &#x26; verify system configurations for specific missions.</li>
+<li>Execute established procedures -> update via experience.</li>
+<li>Manage <strong>SoI</strong> flows (materials, energy, info) &#x26; monitor input/output systems.</li>
+<li>Track performance &#x26; operational availability.</li>
+<li>Identify, investigate, &#x26; correct problems/anomalies.</li>
+<li>Conduct planned contingency actions during abnormal conditions.</li>
+</ul>
+</li>
+<li><strong>Results Management</strong>:
+<ul>
+<li>Capture/investigate incidents &#x26; anomalies -> perform corrective actions.</li>
+<li>Use <strong>Quality Assurance Process</strong> for problem resolution.</li>
+<li>Apply operational experience -> improvements.</li>
+<li>Maintain bidirectional traceability: assets/services &#x3C;-> architecture/design/requirements.</li>
+</ul>
+</li>
+<li><strong>Stakeholder Support</strong>:
+<ul>
+<li>Supplier supports customer throughout life cycle.</li>
+<li>Leverage knowledge generated by customer &#x26; supplier.</li>
+</ul>
+</li>
+<li><strong>Operational Concepts</strong>:
+<ul>
+<li>Represents ultimate <strong>SE</strong> goal.</li>
+<li>Needs/requirements provide source for system requirements &#x26; V&#x26;V inputs.</li>
+<li><strong>SoI</strong> interfaces w/ external systems -> requires life cycle coordination.</li>
+<li>Environmental evolution during development -> requires updated life cycle concepts &#x26; requirements.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="maintenance-process">Maintenance Process</h4>
+<ul>
+<li><img  src="/_astro/c02f055_1768880128230_0.EyhvooOn_ZM4Nvg.webp" alt="c02f055.png" loading="lazy" decoding="async" fetchpriority="auto" width="1819" height="804">{:height 240, :width 484}</li>
+<li><strong>Maintenance Purpose</strong>: sustain system capability -> provide service.</li>
+<li><strong>Process Focus</strong>: sustains services for operating organization.
+<ul>
+<li>Concurrent w/ <strong>Operation Process</strong>.</li>
+<li>Includes: operations support, logistics, &#x26; material management.</li>
+<li>Identifies requirements/design gaps -> drives <strong>SoI</strong> changes &#x26; requirement augmentation.</li>
+</ul>
+</li>
+<li><strong>Preparation Activities</strong>:
+<ul>
+<li>Define/maintain maintenance &#x26; logistics strategies.</li>
+<li>Establish business rules for sustaining/enhancing services.</li>
+<li>Identify regulations, legal requirements, &#x26; ethical constraints.</li>
+<li>Plan capability build-up: site schedules, personnel availability, &#x26; training.</li>
+<li>Establish warranties, licenses (software/legal), &#x26; support communication lines.</li>
+<li>Obtain enabling systems, controls, products, &#x26; services.</li>
+<li>Review transition, validation, &#x26; operation strategies for support concept compatibility.</li>
+</ul>
+</li>
+<li><strong>Maintenance Performance</strong>:
+<ul>
+<li>Confirm transition completion at maintenance sites.</li>
+<li>Execute established procedures -> update via experience.</li>
+<li>Repair physical/logical damage (e.g., data corruption/inaccessibility).</li>
+<li>Replace faulty/obsolete parts &#x26; apply software updates.</li>
+<li>Monitor <strong>SoI</strong> &#x26; environment -> detect/predict failures or performance degradation.</li>
+<li>Prevent disruptions via scheduled repairs based on history/prediction.</li>
+<li>Ensure material/part availability via production, acquisition, or repair.</li>
+<li>Track repairs -> analyze trends for warranty claims or new project needs.</li>
+</ul>
+</li>
+<li><strong>Logistic Support</strong>: conduct acquisition &#x26; operational logistics actions.</li>
+<li><strong>Results Management</strong>:
+<ul>
+<li>Capture/investigate incidents &#x26; anomalies -> execute corrective actions.</li>
+<li>Utilize <strong>Quality Assurance Process</strong> for problem resolution.</li>
+<li>Apply experience -> improvements.</li>
+<li>Maintain bidirectional traceability: assets/services &#x3C;-> architecture/design/requirements.</li>
+<li>Manage configuration data items.</li>
+</ul>
+</li>
+<li><strong>Strategy Coordination</strong>:
+<ul>
+<li>Identify enabling systems/materials early -> manage lead times.</li>
+<li>Coordinate <strong>SoI</strong> maintenance w/ interoperating &#x26; enabling systems.</li>
+<li>Trigger maintenance actions across systems due to technical or organizational concerns.</li>
+</ul>
+</li>
+<li><strong>System Integration</strong>:
+<ul>
+<li>Integrate activities into existing support/logistics networks.</li>
+<li>Sustain personnel skills &#x26; competencies for operation &#x26; maintenance.</li>
+</ul>
+</li>
+<li><strong>Maintenance Modes</strong>:
+<ul>
+<li><strong>Corrective</strong>: restores normal operation (e.g., hardware replacement, software patches).</li>
+<li><strong>Preventive</strong>: schedules routine actions -> prevents failures &#x26; sustains performance.</li>
+<li><strong>Predictive</strong>: utilizes operational data -> predicts failures &#x26; schedules advance maintenance.</li>
+<li><strong>System Modification</strong>: changes system -> sustains existing capabilities in changing environments.</li>
+<li><strong>Upgrades</strong>: adds new capabilities to extend useful life.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="disposal-process">Disposal Process</h4>
+<ul>
+<li><img  src="/_astro/c02f056_1768880154744_0.DoLCQHus_2spIQh.webp" alt="c02f056.png" loading="lazy" decoding="async" fetchpriority="auto" width="1838" height="689">{:height 251, :width 529}</li>
+<li><strong>Purpose</strong>: end system existence for intended use.
+<ul>
+<li>Handle replaced/retired elements &#x26; waste products.</li>
+<li>Attend to critical disposal needs.</li>
+<li>Comply w/ guidance, policy, regulations, &#x26; statutes.</li>
+</ul>
+</li>
+<li><strong>Description</strong>: generates requirements/constraints for design consideration.
+<ul>
+<li>Considers material reclamation/recycling.</li>
+<li><strong>Incremental Disposal</strong>: applies at any life cycle point (e.g., prototypes, manufacturing waste, maintenance parts).</li>
+<li>Manages element transitions to different systems.</li>
+<li>Restores environment to acceptable condition.</li>
+<li>Documents activities for oversight/regulatory monitoring.</li>
+</ul>
+</li>
+<li><strong>Preparation Activities</strong>:
+<ul>
+<li>Review retirement/disposal concept (hazardous materials, environmental impact).</li>
+<li>Develop disposal strategy &#x26; plan.</li>
+<li>Impose disposal constraints on system requirements.</li>
+<li>Ensure enabling systems, products, &#x26; services availability.</li>
+<li>Identify reusable vs. non-reusable elements.</li>
+<li>Specify containment, storage, inspection criteria, &#x26; periods.</li>
+</ul>
+</li>
+<li><strong>Disposal Performance</strong>:
+<ul>
+<li>Decommission system/elements.</li>
+<li>Disassemble elements for handling.</li>
+<li>Extract &#x26; process reusable elements &#x26; waste materials.</li>
+<li>Consign waste for destruction or permanent storage -> prevent supply chain re-entry.</li>
+<li>Dispose per established procedures.</li>
+<li>Adhere to safety, security, privacy, &#x26; environmental regulations.</li>
+<li>Capture staff tacit knowledge.</li>
+</ul>
+</li>
+<li><strong>Finalization</strong>:
+<ul>
+<li>Confirm zero adverse effects &#x26; return environment to original state.</li>
+<li>Maintain documentation of activities &#x26; residual hazards.</li>
+</ul>
+</li>
+<li><strong>Common Tips</strong>:
+<ul>
+<li>Consider donations to museums/conservatories for historical value.</li>
+<li>Target “zero footprint” &#x26; “zero emissions” for corporate social responsibility.</li>
+<li>Support the <strong>Circular Economy</strong> via closed-loop materials</li>
+</ul>
+</li>
+<li><strong>Disposal Analysis</strong>:
+<ul>
+<li>Evaluate alternative methods: storing, dismantling, reusing, recycling, reprocessing, &#x26; destroying.</li>
+<li>Analyze costs (<strong>LCC</strong>), sites, environmental/health impacts, handling, &#x26; shipping.</li>
+<li>Select design materials based on analysis.</li>
+<li>Update strategy in response to changing laws, regulations, &#x26; policies.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h1 id="systems-engineering-in-practice">Systems Engineering in Practice</h1>
+<ul>
+<li>
+<h2 id="future-of-se">Future of SE</h2>
+<ul>
+<li><strong>Future of SE Resources</strong>:
+<ul>
+<li><strong>INCOSE Systems Engineering Vision</strong></li>
+<li><strong>Systems Engineering Body of Knowledge (SEBoK)</strong>.</li>
+</ul>
+</li>
+<li><strong>Emerging Technologies</strong>: computing, communications, software, <strong>Human Systems Integration (HSI)</strong>, augmented intelligence, &#x26; <strong>Machine Learning (ML)</strong>.</li>
+<li><strong>System Scale</strong>: spans miniaturized electronics -> cloud-based systems w/ millions of users.
+<ul>
+<li>Hyperconnectivity &#x26; exponential growth -> increased SE importance.</li>
+</ul>
+</li>
+<li><strong>AI/SE Dual Transformation</strong>:
+<ul>
+<li><strong>AI4SE (AI for SE)</strong>: applies AI/ML -> improves human-driven SE practices.
+<ul>
+<li>Achieves augmented intelligence, model scale, &#x26; efficiency.</li>
+<li>Enhances processes, methods, &#x26; tools -> improves quality &#x26; reduces cycle time.</li>
+</ul>
+</li>
+<li><strong>SE4AI (SE for AI)</strong>: applies SE principles -> AI discipline development.</li>
+</ul>
+</li>
+<li><strong>Policy &#x26; Sustainability</strong>: SE practitioners contribute to policy, viable system design, &#x26; global sustainability transformation.</li>
+<li><strong>Expanded Disciplinary Scope</strong>: includes policy, legal, economic, &#x26; environmental specializations.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul> <!-- Markdown content is injected here --> <!-- ... --> </html> </div>  <script type="module">const h=document.querySelector(".banner-image");if(h){const o=h.getAttribute("src");o&&o.startsWith("/_astro/")&&h.setAttribute("src","."+o)}const a=document.getElementById("markdown-content");if(a){a.querySelectorAll("li").forEach(t=>{const n=Array.from(t.children).find(e=>e.tagName==="UL"||e.tagName==="OL");if(n){const e=document.createElement("details"),s=document.createElement("summary");for(e.open=!0;t.firstChild&&t.firstChild!==n;)s.appendChild(t.firstChild);e.appendChild(s),e.appendChild(n),t.appendChild(e),t.style.listStyle="none"}});const i=document.createElement("div");i.style.cssText="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 10000; display: none; justify-content: center; align-items: center; pointer-events: none;";const d=document.createElement("img");d.style.cssText="max-width: 95%; max-height: 95%; object-fit: contain;",i.appendChild(d),document.body.appendChild(i),a.querySelectorAll("img").forEach(t=>{const r=t.getAttribute("src");r&&r.startsWith("/_astro/")&&t.setAttribute("src","."+r),t.style.cursor="zoom-in",t.addEventListener("mouseenter",()=>{d.src=t.src,i.style.display="flex"}),t.addEventListener("mouseleave",()=>{i.style.display="none"});const n=t.nextSibling;if(n&&n.nodeType===Node.TEXT_NODE){const e=n.textContent,s=/\{:height\s*(\d+),\s*:width\s*(\d+)\}/,c=e.match(s);c&&(t.setAttribute("height",c[1]),t.setAttribute("width",c[2]),n.textContent=e.replace(s,""))}}),a.querySelectorAll("p").forEach(t=>{const r=t.innerHTML;if(r.includes("|")&&r.includes("-")){const n=r.split(/<br\s*\/?>|\n/).map(e=>{const s=document.createElement("div");return s.innerHTML=e,s.textContent.trim()}).filter(e=>e);if(n.length>=2&&n[0].includes("|")&&/^[\s|:-]+$/.test(n[1])){const e=document.createElement("table");n.forEach((s,c)=>{if(c===1)return;const m=document.createElement("tr"),l=s.split("|");s.trim().startsWith("|")&&l.shift(),s.trim().endsWith("|")&&l.pop(),l.forEach(u=>{const p=document.createElement(c===0?"th":"td");p.textContent=u.trim(),m.appendChild(p)}),e.appendChild(m)}),t.replaceWith(e)}}})}</script> <!--
+<p>Post Archive:</p>
+<ul>
+  {posts.map(post => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+</ul>
+-->
